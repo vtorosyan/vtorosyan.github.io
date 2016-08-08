@@ -1,1 +1,1 @@
-My blog :)
+A very normal blog about programming
