@@ -192,12 +192,11 @@ img {
 
 .site-name {
   float: left;
-  margin-top: 23px;
-  color: $darkGray;
+  margin: 25px 0 0 0;
+  
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: $helveticaNeue;  
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
