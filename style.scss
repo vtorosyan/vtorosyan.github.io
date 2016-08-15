@@ -196,8 +196,13 @@ img {
   
   cursor: pointer;
   font-family: $helveticaNeue;  
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
+  color: $darkGray;
+
+  @include mobile {
+    margin: 9px 0 0 0;
+  }
 }
 
 .site-description {
@@ -217,7 +222,7 @@ nav {
   font-size: 18px;
 
   @include mobile {
-    float: none;
+    float: right;
     margin-top: 9px;
     display: block;
     font-size: 16px;
