@@ -3,6 +3,11 @@
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
 
+	 	var disqus_config = function () {
+        	this.page.url = document.location.href.split('?')[0].split('#')[0];
+        	this.page.identifier = this.page.url;
+    	};
+
 	    var disqus_shortname = '{{ site.disqus }}';
 
 	    (function() {

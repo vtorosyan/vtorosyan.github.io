@@ -253,6 +253,7 @@ nav {
 }
 
 .post {
+  font-size: 17px;
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -267,7 +268,6 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
   }
 }
