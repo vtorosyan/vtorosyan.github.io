@@ -2,10 +2,15 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
 name: Vardan Torosyan's Blog
-# Short bio or description (displayed in the header)
+title: Vardan Torosyan
 description: Vardan Torosyan's Blog
+
+author:
+  name: "Vardan Torosyan"
+  email: vardants@gmail.com
+copyright: "(c) Vardan Torosyan, 2016"
+encoding: utf-8
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: 
