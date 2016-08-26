@@ -1,1 +1,1 @@
-Sitemap: https://vtorosyan.github.io/sitemap.xml
+Sitemap: http://vtorosyan.github.io/sitemap.xml
