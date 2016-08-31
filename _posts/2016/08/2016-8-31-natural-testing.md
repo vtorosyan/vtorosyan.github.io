@@ -14,8 +14,8 @@ After reading [the post](http://tengio.com/blog/more-readable-tests-with-kotlin/
 To illustrate how Kotlin can be used to make testing easy and natural let's write some class which validates given password and write unit tests for it.
 
 The requirements for the password are rather simple
-- Password should contain only numbers and letters
-- Password should have more than 5 and less than 10 characters
+* Password should contain only numbers and letters
+* Password should have more than 5 and less than 10 characters
 
 ```java
 public class PasswordValidator {
@@ -50,7 +50,7 @@ public void validate_PasswordWith5CharsContainingBrackets_ReturnFalse() {}
 
 Now let's write the same test specifications using Kotlin. In Kotlin, you can use backticks(``) to name your methods or classes as you like. For example if we transform our `PasswordValidator` class from Java to Kotlin, it can look like
 
-```java
+```
 class `Password Validator`() {
 	fun `validate given password`() { /** ... */ }
 } 
@@ -73,7 +73,7 @@ fun `Validate password and return false when the parameter has 6 chars and conta
 fun `Validate password and return false when the parameter has 5 chars and contains brackets`() {}
 ```
 
-As you can see the test is 100% human readable, even someone who has no idea what test or class is doing can read the method name and understand the purpose. Even more, if you have already somewhere test cases/scenarios written, they can easily be transformed to the unit tests by simply copy pasting the titles of your test scenarios.
+As you can see the test is 100% human readable, even someone who has no idea what test or class is doing can read the method name and understand the purpose. Even more, if you have already somewhere test cases/scenarios written, they can be easily transformed to the unit tests by copy pasting the titles of your test scenarios.
 
 Luckily, it does not end here. We want to have tests as executable, behaviour driven specifications. Having some context about the functionality only in the test method name is not behaviour driven at all. The new [Spek](https://jetbrains.github.io/spek/){:target="_blank"} framework comes for a help. Here is our tests in Spek
 
@@ -107,9 +107,9 @@ class PasswordValidatorTest : Spek({
 
 Although it's not really convenient to put the specification in the initialization block of Spek, but we have purely behaviour driven, human readable and machine executable test. 
 
-Spek is the most used framework in Kotlin world now, but not the only one. If you are coming from Scala world check out the [KotlinTest](https://github.com/kotlintest/kotlintest){:target="_blank"}, which is highly inspired by [ScalaTest](http://www.scalatest.org/){:target="_blank"}.
+Spek is the most used framework in Kotlin world now, but not the only one. If you are coming from Scala world you may find interesting the [KotlinTest](https://github.com/kotlintest/kotlintest){:target="_blank"}, which is highly inspired by [ScalaTest](http://www.scalatest.org/){:target="_blank"}.
 
-Check out the list below for other frameworks/libraries for Kotlin 
+Check out the list below for other frameworks/libraries for Kotlin/JVM 
 
 * [spek](https://github.com/jetbrains/spek){:target="_blank"} - A specification framework for JVM.
 * [mockito-kotlin](https://github.com/nhaarman/mockito-kotlin){:target="_blank"} - A small library that provides helper functions to work with Mockito in Kotlin.
