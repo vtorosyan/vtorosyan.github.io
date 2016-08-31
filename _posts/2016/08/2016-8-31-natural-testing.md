@@ -109,7 +109,7 @@ Although it's not really convenient to put the specification in the initializati
 
 Spek is the most used framework in Kotlin world now, but not the only one. If you are coming from Scala world you may find interesting the [KotlinTest](https://github.com/kotlintest/kotlintest){:target="_blank"}, which is highly inspired by [ScalaTest](http://www.scalatest.org/){:target="_blank"}.
 
-Check out the list below for other frameworks/libraries for Kotlin/JVM 
+If you want to experiment more, check out the list below for some other frameworks/libraries for Kotlin/JVM 
 
 * [spek](https://github.com/jetbrains/spek){:target="_blank"} - A specification framework for JVM.
 * [mockito-kotlin](https://github.com/nhaarman/mockito-kotlin){:target="_blank"} - A small library that provides helper functions to work with Mockito in Kotlin.
