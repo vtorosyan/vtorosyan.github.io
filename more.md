@@ -13,18 +13,19 @@ I use this platform of mine not for self-promotion, but for mutual education.
 
 Aye!
 
-<!-- P.S. You can subscribe to receive updates from me. Of course, you can [unsubscribe](/unsubscribe.md) too!
+
+P.S. You can subscribe to receive weekly emails with new posts from me. Of course, you can [unsubscribe](/unsubscribe) too!
 <form method="POST" action="http://formspree.io/vardants@gmail.com">
-  <div>	
-  	<input type="email" name="email" size="51" maxlength="255" placeholder="Your email" required="required">
+  <div style="margin-bottom: 10px;">	
+  	<input type="email" name="email" size="50" maxlength="255" placeholder="Your email" required="required">
   </div>  
   <div>
-  	<textarea name="message" rows="5" cols="50" placeholder="Your message" required="required"></textarea>
+  	<textarea name="message" rows="5" cols="49" placeholder="Your message" required="required"></textarea>
   </div>
   <input type="hidden" name="_next" value="http://vtorosyan.github.io/subscribed"/>
   <input type="hidden" name="_subject" value="subscribe"/>
   <input type="hidden" name="_format" value="text"/>
   <button type="submit">Subscribe</button>
-</form> -->
+</form>
 
 
