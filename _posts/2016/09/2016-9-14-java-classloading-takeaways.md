@@ -16,7 +16,7 @@ Java Virtual Machine purpose is to consume class files and execute the byte code
 Suppose we have a simple `HelloWorld` Java class with a `main` method which prints `Hello World` to the console.
 
 ### Step 1: Loading of classes and interfaces
-When we try to run our program, JVM tries to find the binary representation (a compiled .class file) of the HelloWorld class with a fully qualified name. Obviously the initial attempt fails and that's when JVM starts searching the class, finds it and loads the binary representation of the class. You may wonder what happens if it can't find the class? That is when we have the famous `NoClassDefFoundError`. 
+When we try to run our program, JVM tries to find the binary representation (a compiled .class file) of the HelloWorld class with a fully qualified name. Obviously the initial search attempt fails and thats when JVM loads the binary representation of the new class. You may wonder what happens if it can't find the class? That is when we have the famous `NoClassDefFoundError`. 
 
 #### *Takeaways*
 - The loading process is implemented by the class ClassLoader (and its subclasses).
