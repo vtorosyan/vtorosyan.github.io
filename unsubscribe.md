@@ -3,7 +3,7 @@ layout: page
 permalink: /unsubscribe
 ---
 
-Sad you are leaving captain. If you change your mind, you can always [subscribe](/more)
+Sad you are leaving captain. If you change your mind, you can always [subscribe](/more).
 
 <form method="POST" action="http://formspree.io/vardants@gmail.com">
   <div>	
