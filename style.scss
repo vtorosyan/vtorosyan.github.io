@@ -163,6 +163,14 @@ img {
   }
 }
 
+.input {
+  width: 50%;
+
+  @include mobile {
+    width: 70%;
+  }
+}
+
 .site-avatar {
   float: left;
   width: 70px;
