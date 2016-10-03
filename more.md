@@ -14,7 +14,7 @@ I use this platform of mine not for self-promotion, but for mutual education.
 Aye!
 
 
-P.S. You can subscribe to receive weekly emails with new posts from me. Of course, you can [unsubscribe](/unsubscribe) too!
+P.S. You can subscribe to receive monthly emails with new posts from me. Of course, you can [unsubscribe](/unsubscribe) too!
 <form method="POST" action="http://formspree.io/vardants@gmail.com">
   <div style="margin-bottom: 10px;">	
   	<input type="email" name="email" class="input" maxlength="255" placeholder="Your email" required="required">
