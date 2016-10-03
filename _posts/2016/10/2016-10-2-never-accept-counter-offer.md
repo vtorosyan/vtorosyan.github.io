@@ -24,3 +24,14 @@ I have seen [surveys](http://thevetrecruiter.com/news/a-perfect-case-study-for-n
 Unless it’s not an exception - here is the answer for a counter-offer which you should give
 
 **“No, thanks”**
+
+-------------------------------------------------------------------------------------------
+
+**UPDATE**
+
+There have been a lot of comments in [HN](https://news.ycombinator.com/item?id=12624112){:target="_blank"} regards the topic so I'd like to clarify few points.
+
+- **I'm not a recruiter**. I'm don't have any relations to neither a recruting agency nor an individual recruiter. What you read is purely my personal opinion.
+- **My opinion is not based on the mentioned sources**, I've linked them as an additional source for thought. You can take a look at [this discussion](https://news.ycombinator.com/item?id=12624364) for more insights regarding such surveys.
+- Many commenters wrote that if you're happy with your current job and the counter-offer gives you a salary raise you should accept it and stay there with a higher salary. I think if you're happy with your current job and the salary is the only thing you're unhappy with, you shouldn't be looking for a new job in the first place. **You need to communicate with your manager and ask for a pay raise.** 
+But if you've done so and received no raise, and only got it after you've threatened to leave, that's when I'd think that if other issues rise they also won't be met until you go through an entire recruitment process at another company and prepare to leave.
