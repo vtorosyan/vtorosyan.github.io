@@ -100,7 +100,7 @@ publishing {
 ```
 When accessing access and secrey keys, AWSCredentials class tries to fetch them from the following places in according precendence
 
-* Environemnt variables
+* Environment variables
 * The AWS credentials file (located at `~/.aws/credentials`)
 * The AWS CLI configuration file (located at `~/.aws/config`)
 * Instance profile credentials (used on EC2 instances)
