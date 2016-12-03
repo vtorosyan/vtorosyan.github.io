@@ -76,7 +76,7 @@ Of course, you can always search for a solution, but this is not helpful, it's n
 **Taking rest and doing workout**
 
 Without good sleep, proper rest, body and brain become very tired quickly. It’s not even about studies, the whole life becomes dark and negative. Rest, workout, physical activity is very important. 
-Although I have been doing workouts, but often laziness was the king here. I've already put strict schedule in my calender; 3 times a week 2 hours of workout (I do it at home, thanks to [Fitnessblender](https://www.fitnessblender.com/){:target="_blank"}). 
+Although I have been doing workouts, but often laziness was the king here. I've already put strict schedule in my calender; 3 times a week 1 hour of workout (I do it at home, thanks to [Fitnessblender](https://www.fitnessblender.com/){:target="_blank"}). 
 
 I am looking forward to see how those changes will affect my life and will be happy to share it here.
 
