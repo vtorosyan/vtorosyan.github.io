@@ -29,6 +29,6 @@ I won't be the first one to tell that 2016 was a hard year. Looking back though,
 
 Last by not least, I'm moving to write code for [Soundcloud](https://soundcloud.com){:target="_blank"} soon! This is very exciting and challenging itself! 
 
-Meanwhile, I'm still in [Friendsurance](https://www.friendsurance.de/){:target="_blank"} where I spent my year, so don't forget to contact in case you want to [work](https://www.friendsurance.de/jobs){:target="_blank"} with us.
+Meanwhile, I'm still in [Friendsurance](https://www.friendsurance.de/){:target="_blank"}, where I spent my year, so don't forget to contact in case you want to [work](https://www.friendsurance.de/jobs){:target="_blank"} with us.
 
 

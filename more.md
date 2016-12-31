@@ -7,7 +7,7 @@ permalink: /more
 
 I'm *Vardan*, a software engineer living and working in Berlin. 
 
-I write code at [Friendsurance](https://www.friendsurance.de/ueber-uns){:target="_blank"}, enjoy making coffee and read works on stoicism. 
+I write code at [Friendsurance](https://www.friendsurance.de/ueber-uns){:target="_blank"}, enjoy making coffee and read books on stoicism. 
 
 <!-- P.S. You can subscribe to receive monthly emails with new posts from me. Of course, you can [unsubscribe](/unsubscribe) too!
 <form method="POST" action="http://formspree.io/vardants@gmail.com">
