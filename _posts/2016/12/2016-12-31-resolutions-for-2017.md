@@ -27,7 +27,7 @@ I won't be the first one to tell that 2016 was a hard year. Looking back though,
 - I want to understand what the hell is **Data Science**. I'll try to share my learnings and also open source small projects ;)
 - I feel like it's time to give back something to the community. I'm planning to actively **contribute to open source projects** which are waiting for my commits!
 
-Last by not least, I'm moving to write code for [Soundcloud](https://soundcloud.com){:target="_blank"} soon! This is very exciting and challenging itself! 
+Last by not least, I'm going to write code for [Soundcloud](https://soundcloud.com){:target="_blank"} soon! This is very exciting and challenging itself (more details on upcoming post)!.
 
 Meanwhile, I'm still in [Friendsurance](https://www.friendsurance.de/){:target="_blank"}, where I spent my year, so don't forget to contact in case you want to [work](https://www.friendsurance.de/jobs){:target="_blank"} with us.
 
