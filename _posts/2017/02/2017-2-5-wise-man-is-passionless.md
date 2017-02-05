@@ -30,7 +30,7 @@ Here is another quote, from ancient Stoics
 
 Although I’m far far away from being wise, but I do think that we should be careful when making our passions.
 
-I work with **people**. I value them much more than any programming language, technique, software or best UI guideline. I want to see people in my workplace **mentally and physically healthy**. Neither sleepless night, nor tasteless are not the values which I seek. 
+I work with **people**. I value them much more than any programming language, technique, software or best UI guideline. I want to see people in my workplace **mentally and physically healthy**. Neither sleepless nights, nor tasteless life are not the values which I seek. 
 
 I do think that industry/market forces people to develop “fake passions” only for the sake of their own benefits.
 
