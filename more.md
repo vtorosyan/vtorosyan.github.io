@@ -3,11 +3,9 @@ layout: page
 permalink: /more
 ---
 
-**Hey Captain!**
+I'm Vardan, a software engineer living in Berlin.
 
-I'm *Vardan*, a software engineer living and working in Berlin. 
-
-I write code at [Friendsurance](https://www.friendsurance.de/ueber-uns){:target="_blank"}, enjoy making coffee and read books on stoicism. 
+I write code at [SoundCloud](https://soundcloud.com){:target="_blank"}.
 
 <!-- P.S. You can subscribe to receive monthly emails with new posts from me. Of course, you can [unsubscribe](/unsubscribe) too!
 <form method="POST" action="http://formspree.io/vardants@gmail.com">
