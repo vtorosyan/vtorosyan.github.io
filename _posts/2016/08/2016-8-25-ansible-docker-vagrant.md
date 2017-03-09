@@ -21,7 +21,7 @@ Here is a quick overview about the tools we are going to use:
 
 ### Vagrant
 
-[Vagrant](https://www.vagrantup.com/docs/why-vagrant/){:target="_blank"}{:target="_blank"} is a virtual machine manager. It is easy to configure, and by default comes with support of the providers such as Docker, VirtualBox, and VMware. The great thing about Vagrant is that you can use all modern provisioning tools (e.g Chef, Puppet, Ansible) to install and configure software on the virtual machine.
+[Vagrant](https://www.vagrantup.com/docs/why-vagrant/){:target="_blank"}{:target="_blank"} is a virtual machine manager. It is easy to configure, and by default comes with support of the providers such as Docker, VirtualBox and VMware. The great thing about Vagrant is that you can use all modern provisioning tools (e.g Chef, Puppet, Ansible) to install and configure software on the virtual machine.
 
 ## The goal
 
