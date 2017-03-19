@@ -33,7 +33,13 @@ Here is a quick overview about the tools we are going to use:
 
 ### Step 1 (pre-requisite): Install Vagrant 
 
-Installing Vagrant is extremely easy, check out the [download](https://www.vagrantup.com/downloads.html){:target="_blank"} page and follow the instructions.
+Installing Vagrant is easy, check out the [download](https://www.vagrantup.com/downloads.html){:target="_blank"} page and follow the instructions. 
+
+In addition we need to install a plugin that manages the `hosts` file in guest machine. 
+
+```
+vagrant plugin install vagrant-hostmanager
+```
 
 ### Step 2: Building a Hello World resource
 
@@ -58,7 +64,7 @@ MAINTAINER vtor
 RUN echo 'root:root' | chpasswd
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y aptitude sudo openssh-server
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y aptitude sudo openssh-server python2.7
 
 ADD kotlin-hello-world /tmp/kotlin-hello-world
 WORKDIR /tmp/kotlin-hello-world
