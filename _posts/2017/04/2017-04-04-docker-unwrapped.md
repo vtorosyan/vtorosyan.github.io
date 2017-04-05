@@ -81,5 +81,5 @@ Docker comes with great documentation. Sometimes though, with different componen
 
 What did I miss? :)
 
-Update: There is also a [cheat sheet](https://github.com/vtorosyan/docker-unwrapped).
+**Update**: I've added the content in this post as a small [cheat sheet](https://github.com/vtorosyan/docker-unwrapped).
 
