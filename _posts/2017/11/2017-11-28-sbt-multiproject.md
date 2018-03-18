@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Experiment driven sbt - Part 1
+title: Experiment driven sbt
 ---
 
 sbt is a _de facto_ build tool for Scala. It can also be used for Java or for [cross-platform](https://github.com/d40cht/sbt-cpp){:target="_blank"} native builds. sbt uses only few concepts to support its build definitions - roughly speaking, it is mainly about [_tasks_](http://www.scala-sbt.org/1.x/docs/Tasks.html){:target="_blank"}, [_settings_](http://www.scala-sbt.org/1.0/docs/Custom-Settings.html){:target="_blank"} and configurations.
@@ -9,7 +9,7 @@ The purpose of this post is to show how easy it is to start a project with `sbt`
 
 ### Prerequisite
 
-Latest version of `sbt` (`1.0.4`) requires Java 1.8 or later [installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"}. Once you have Java, install sbt by [package manager or by downloading](http://www.scala-sbt.org/download.html){:target="_blank"} the bundle. 
+Latest version of `sbt` (`1.0.4`) requires Java 1.8 or later [installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"}. Once you have Java, install sbt by [package manager or by downloading](http://www.scala-sbt.org/download.html){:target="_blank"} the bundle.
 
 Alternatively, if you are a Docker person, you can get an [sbt image](https://hub.docker.com/r/bigtruedata/sbt/){:target="_blank"} and run the project using Docker.
 
@@ -22,14 +22,14 @@ Alternatively, if you are a Docker person, you can get an [sbt image](https://hu
 
 Now let's create a directory where our project will live and add above mentioned files.
 
-```
-# creates main directory and `project` directory inside 
+`
+# creates main directory and `project` directory inside
 mkdir -p sbt-multiproject-example/project
 
 # creates `build.properties` and `build.sbt` files, empty for now
 touch sbt-multiproject-example/project/build.properties
 touch sbt-multiproject-example/build.sbt
-```
+`
 
 That's it! We ready to try out. Go to the main dir of the project and run `sbt` to enter an interactive mode. Here is how it looks for me
 
@@ -65,11 +65,11 @@ version := "0.0.1"
 organization := "com.example.sbt"
 ```
 
-We have just defined our first settings! Settings in `sbt` are immutable. Think about it as a multimap, each key may be associated with multiple values, but only the one defined last will be used. 
+We have just defined our first settings! Settings in `sbt` are immutable. Think about it as a multimap, each key may be associated with multiple values, but only the one defined last will be used.
 
 ### Adding a project
 
-We already know that `sbt` follows certain conventions for project structure. We could of course ignore that and use our own structure, but it is always advised to follow conventions, unless there is a strong reason not to do so. 
+We already know that `sbt` follows certain conventions for project structure. We could of course ignore that and use our own structure, but it is always advised to follow conventions, unless there is a strong reason not to do so.
 
 But how do you know what the structure looks like? Let's find out where to put the Scala sources.
 
@@ -78,7 +78,7 @@ sbt:sbt-multiproject> show scalaSource
 [info] /Users/vardantorosyan/dev/src/vt/sbt-multiproject-example/src/main/scala
 ```
 
-Basically with a help of `sbt` itself, we now know where to put sources so that it will be able to look for them. Sources in default locations are called `unmanaged sources`. 
+Basically with a help of `sbt` itself, we now know where to put sources so that it will be able to look for them. Sources in default locations are called `unmanaged sources`.
 
 ```
 mkdir -p src/main/scala
@@ -124,7 +124,7 @@ sbt:sbt-multiproject> ~test
 1. Waiting for source changes... (press enter to interrupt)
 ```
 
-See the message? 
+See the message?
 
 Now, let's add our first test, while keeping an eye on the console.
 
@@ -153,8 +153,6 @@ That's it! We have a simple project saying hello and defined a build for it! Jus
 1. Start writing tests and use `~test` task to get an early feedback.
 1. `package` the project to create an artifact.
 
-As you can see, `sbt` is very friendly and interactive. It comes with handy of built in tasks which makes day to day development very easy. 
-
-In the second part, we will convert our example project to a multi project - showing how flexible `sbt` is when it comes to the custom configurations and tasks.
+As you can see, `sbt` is very friendly and interactive. It comes with handy of built in tasks which makes day to day development very easy.
 
 P.S. You can [check out](https://github.com/vtorosyan/sbt-multiproject-example) the project for the full example.
