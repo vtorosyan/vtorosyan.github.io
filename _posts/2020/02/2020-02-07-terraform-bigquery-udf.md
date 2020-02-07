@@ -1,23 +1,25 @@
 ---
 layout: post
-title: Managing BigQuery UDFs by Terraform
+title: Managing BigQuery UDFs with Terraform
 ---
 
-[Terraform](https://www.terraform.io/){:target="_blank"} is a tool for building, changing and versioning infrastructure resources. Almost any infrastructure type can be managed as a resource in Terraform. [Terraform providers](https://www.terraform.io/docs/providers/index.html){:target="_blank"} are responsible for understanding API interactions with your infrastructure. There is an extensive list of available providers which covers most common infrastructure resources, and [Google Cloud Platform Provider](https://www.terraform.io/docs/providers/google/index.html){:target="_blank"} is one of them. There are cases however, when providers do not provide an API for managing specific resources of your infrastructure. [User-Defined Functions in BigQuery](https://cloud.google.com/bigquery/docs/reference/standard-sql/user-defined-functions){:target="_blank"} is one of the resources which is currently not supported by GCP provider (Versions <= 3.0) 
+[Terraform](https://www.terraform.io/){:target="_blank"} is a tool for building, changing and versioning infrastructure resources. Almost any type of infrastructure can be managed as a resource in Terraform. [Terraform providers](https://www.terraform.io/docs/providers/index.html){:target="_blank"} are responsible for understanding API interactions with your infrastructure. There is an extensive list of available providers that cover the most common infrastructure resources, and [Google Cloud Platform Provider](https://www.terraform.io/docs/providers/google/index.html){:target="_blank"} is one of them. There are cases however, when providers do not implement an API for managing specific resources for a given infrastructure. [User-Defined Functions in BigQuery](https://cloud.google.com/bigquery/docs/reference/standard-sql/user-defined-functions){:target="_blank"} is one of the resources which is currently not supported by a GCP provider (Versions <= 3.0)
+
 
 ## Introduction to Terraform Provisioners
 
 [Provisioners in Terraform](https://www.terraform.io/docs/provisioners/){:target="_blank"} can be used to model and execute specific actions on the _local machine_ or on a _remote machine_.
 
-In most cases, you don't need to use provisioners. Moreover, **using provisioners should be a last resort**. An example of this could be the case described above (BigQuery UDF), when Terraform provider itself doesn't have built-in support for desired resource.
+In most cases, you don't need to use provisioners. Moreover, **using provisioners should be a last resort**. An example of this could be the case described above (BigQuery UDF), when Terraform provider itself doesn't have a built-in support for desired resource.
 
-There are several available provisioners, local-exec is one of them, which allows us to overcome beformentioned problem.
+There are several available provisioners. Local-exec is one of them and it allows us to overcome the aforementioned problem.
 
 ### local-exec provisioner
 
-The [local-exec](https://www.terraform.io/docs/provisioners/local-exec.html){:target="_blank"} provisioner executes a local command after a resource is created. It invokes **the process on the machine which runs Terraform, not on the resource**. 
+The [local-exec](https://www.terraform.io/docs/provisioners/local-exec.html){:target="_blank"} provisioner executes a local command after a resource is created. It invokes **the process on the machine which runs Terraform, not on the resource**.
 
-Example usage (we will talk about `null_resource` next):
+
+Sample usage (we will talk about `null_resource` next):
 
 ```
 resource "null_resource" "my_resource" {
@@ -27,7 +29,7 @@ resource "null_resource" "my_resource" {
 }
 ```
 
-The above resource will simply `echo` `Hello World` after the resource is created. It's important to note, that by default **local-exec provisioner will execute the command [only once](https://www.terraform.io/docs/provisioners/index.html#creation-time-provisioners){:target="_blank"}, after the creation of the resource**. In addition, even though the resource will be fully created when the provisioner is run, there is no guarantee that it will be in an operable state (e.g. the command you execute might not be started on the machine).
+The above resource will simply `echo` `Hello World` after the resource is created. It's important to note, that by default the **local-exec provisioner will execute the command [only once](https://www.terraform.io/docs/provisioners/index.html#creation-time-provisioners){:target="_blank"}, after the creation of the resource**. In addition, even though the resource will be fully created when the provisioner is run, there is no guarantee that it will be in an operable state (e.g. the command you execute might not be started on the machine).
 
 
 ## Introduction to Null Provider
@@ -36,7 +38,7 @@ The `null_resource` used in the above example is available from [null](https://w
 
 `triggers` argument available in `null_resource` is used to detect changes in the resource and forces the null resource to be replaced by re-running the specified provisioner.
 
-Example trigger:
+Sample trigger:
 
 ```
 locals {
