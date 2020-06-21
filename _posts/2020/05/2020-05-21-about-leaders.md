@@ -3,7 +3,9 @@ layout: post
 title: About Leaders
 ---
 
-What makes a great parent? We want to give a child opportunity, education, a chance to learn, fail, grow and achieve more than we have achieved ourselves. We trust a child, see and show them their capabilities, give space to find themselves and do their best in their life. Children follow their parents, not only because they are authority, but because they are great leaders.
+Simon Sinek asks a great question in his [TED talk](https://www.youtube.com/watch?v=lmyZMtPVodo){:target="_blank"}. **What makes a great parent?**
+
+We want to give a child opportunity, education, a chance to learn, fail, grow and achieve more than we have achieved ourselves. We trust a child, see and show them their capabilities, give space to find themselves and do their best in their life. Children follow their parents, not only because they are authority, but because they are great leaders.
 
 
 When child fails, great parents do not put them in the performance improvement plan. Great parents teach to embrace the failure, they never forbid to fail again.
