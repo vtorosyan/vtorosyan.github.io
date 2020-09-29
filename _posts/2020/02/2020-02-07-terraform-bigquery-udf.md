@@ -21,13 +21,14 @@ The [local-exec](https://www.terraform.io/docs/provisioners/local-exec.html){:ta
 
 Sample usage (we will talk about `null_resource` next):
 
-```
+~~~
 resource "null_resource" "my_resource" {
   provisioner "local-exec" {
     command = "echo 'Hello World'"
   }
 }
-```
+~~~
+{: .language-terraform}
 
 The above resource will simply `echo` `Hello World` after the resource is created. It's important to note, that by default the **local-exec provisioner will execute the command [only once](https://www.terraform.io/docs/provisioners/index.html#creation-time-provisioners){:target="_blank"}, after the creation of the resource**. In addition, even though the resource will be fully created when the provisioner is run, there is no guarantee that it will be in an operable state (e.g. the command you execute might not be started on the machine).
 
@@ -55,6 +56,7 @@ resource "null_resource" "my_resource" {
 }
 
 ```
+{: .language-terraform}
 
 In the above scenario, every time we change the value of `my_message` local variable, null resource will re-run the command in the specified provisioner.
 
@@ -85,6 +87,7 @@ resource "null_resource" "my_udf_resource" {
   }
 }
 ```
+{: .language-terraform}
 
 The above definition will run the command everytime the value of `my_udf_definition` is changed and we essentially have the same behaviour as with any other GCP resource.
 
