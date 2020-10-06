@@ -207,6 +207,7 @@ img {
   font-size: 18px;
   letter-spacing: 1px;
   color: $darkGray;
+  text-transform: uppercase;
 
   @include mobile {
     margin: 9px 0 0 0;
@@ -214,7 +215,7 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 55px 0 0 0;
   color: $gray;
   font-size: 16px;
 

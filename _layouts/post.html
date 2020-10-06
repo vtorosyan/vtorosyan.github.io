@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: default
 ---
 
 <article class="post">
@@ -9,9 +9,11 @@ layout: layout
     {{ content }}
   </div>
 
+  {% if page.date %}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  {% endif %}
 
   {% include disqus.html %}
 </article>
