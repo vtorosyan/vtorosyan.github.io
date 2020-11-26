@@ -31,11 +31,11 @@ Surprisingly, the book was very vague and dry, I think it could be a great sales
 
 The best I got from the book was the idea to read High Output Management from Andrew Grove, which is being referenced quite a lot by the author.
 
-**Would I recommend it? No**, better just read the website https://www.whatmatters.com/get-started/
+**Would I recommend it? No**, better just skim the website https://www.whatmatters.com/get-started/
 
 #### [High Output Management, by Andrew S. Grove](https://www.goodreads.com/book/show/324750.High_Output_Management){:target="_blank"}
 
-This book is considered classic in it's genre. After Measure What Matters, I was convinced I had to read it. Andrew Grove did an amazing job going through the fundamental problems and solutions in leadership and management. The book starts by introducing a problem in a physical production domain and later develops on the same story to go through typical scenarios. It is fascinating to see how the ideas and concepts in this book are still relevant, although written decades ago. What I really like is that the book is full of hands-on advice and tips. At the end of the book you get Q&A style section going through all concepts from the book and being a checklist for a manager.
+This book is considered classic in its genre. After Measure What Matters, I was convinced I had to read it. Andrew Grove did an amazing job going through the fundamental problems and solutions in leadership and management. The book starts by introducing a problem in a physical production domain and later develops on the same story to go through typical scenarios. It is fascinating to see how the ideas and concepts in this book are still relevant, although written decades ago. What I really like is that the book is full of hands-on advice and tips. At the end of the book you get Q&A style section going through all the concepts from the book (you can use it as a checklist).
 
 **I definitely recommend to read** this book, it is an amazing artifact not only for the people in management, but for everyone.
 
@@ -49,7 +49,7 @@ Great book, especially for new managers or for the people who are planning to st
 
 #### [The Trouble with Peace, by Joe Abercrombie](https://www.goodreads.com/book/show/40701777-the-trouble-with-peace){:target="_blank"}
 
-Here we go, the long waited one! Joe Abercrombie is probably my favorite author, that I ever read (considering that I favor this genre ;) ). The Trouble with Peace is the second book from [The Age of Madness](https://www.goodreads.com/series/211497-the-age-of-madness){:target="_blank"} series and Abercrombie killed it as usual, with his character development, shock, deatch, happiness and ton of explicit content. 
+Here we go, the long waited one! Joe Abercrombie is probably my favorite author, that I ever read (considering that I favor this genre ;) ). The Trouble with Peace is the second book from [The Age of Madness](https://www.goodreads.com/series/211497-the-age-of-madness){:target="_blank"} series and Abercrombie killed it as usual, with his character development, shock, death, happiness and ton of explicit content. 
 
 Really, go buy the book!
 
@@ -61,10 +61,10 @@ I won't spoil much, but the main storyline is about a family who is running away
 
 **I'd probably say skip this one**.
 
-### [Dark Matter, by Blake Crouch](https://www.goodreads.com/book/show/27833670-dark-matter){:target="_blank"}
+#### [Dark Matter, by Blake Crouch](https://www.goodreads.com/book/show/27833670-dark-matter){:target="_blank"}
 
 Picked this after Run, since the reviews were good. The storeline is interesting, easy to read, but very similar to Recursion and other books from Couch. The more I read the author the more I have a feeling that they are just repeating themselves. I think this is the last book for me from Couch.
 
-### [Oathbringer, The Stormlight Archive #3, by Brandon Sanderson](https://www.goodreads.com/book/show/34002132-oathbringer){:target="_blank"}
+#### [Oathbringer, The Stormlight Archive #3, by Brandon Sanderson](https://www.goodreads.com/book/show/34002132-oathbringer){:target="_blank"}
 
 Oathbringer is the 3rd book in [The Stormlight Archive](https://www.goodreads.com/series/49075-the-stormlight-archive){:target="_blank"} sequence. I actually read it some time ago, however since the [Rhythm of War](https://www.goodreads.com/book/show/49021976-rhythm-of-war){:target="_blank"} came out, I picked the previous one for re-reading. One thing I like most about the series, is you read _a lot_ and can't put away the book, however if you look back nothing really happened! I find it quite interesting how Sanderson does this, as usually I can't progress with books where nothing happens :) **Recommended!**
