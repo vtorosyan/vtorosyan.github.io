@@ -26,7 +26,7 @@ To summarize, few benefits of CoPs are:
 
 ## Building a CoP
 
-Building a CoP is like building any other "collective entity" (e.g. a team). [Simon Senek]'s(https://en.wikipedia.org/wiki/Simon_Sinek){:target="_blank"} [Golden Circle theory](https://www.youtube.com/watch?v=u4ZoJKF_VuA){:target="_blank"} states that to achieve success you need to understand the why, the how and the what. For CoP to function, you need to find out the answers to these questions:
+Building a CoP is like building any other "collective entity" (e.g. a team). [Simon Senek's](https://en.wikipedia.org/wiki/Simon_Sinek){:target="_blank"} [Golden Circle theory](https://www.youtube.com/watch?v=u4ZoJKF_VuA){:target="_blank"} states that to achieve success you need to understand the why, the how and the what. For CoP to function, you need to find out the answers to these questions:
 
 1. What is the vision of our CoP?
 1. How will we work together towards our vision?
