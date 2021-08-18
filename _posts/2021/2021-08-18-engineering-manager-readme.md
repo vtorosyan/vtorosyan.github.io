@@ -4,13 +4,14 @@ title: My Engineering Manager README
 ---
 Manager READMEs are a good way to introduce yourself as an Engineering Manager (EM). When I transitioned into Engineering Management, I created one for me and just writing things down helped a lot to reflect on my career and learn more about myself.
  
-> **Disclaimer: This should not be read to in any way apply to any other group or manager at [Grafana Labs](https://grafana.com/){:_target="blank"}, my current employer.**
- 
 EM responsibilities vary between companies, or even might be different between teams within a company, so my README is always changing. I do my best to reflect and update it at least every month. While the change is always in progress, there are few things which change very rarely, particularly my values and beliefs, and this is the part I thought to share in this post.
+
+> **Disclaimer: This should not be read to in any way apply to any other group or manager at [Grafana Labs](https://grafana.com/){:_target="blank"}, my current employer.**
+
 # Why README?
 My Manager README serves as an introduction to what I value and believe, as well as to my operating principles. The intent however is not to replace or override the relationship and mutual understanding I build with people as we work together and you can think about it as a simple user guide for me.
  
-> Discrepancies between what is outlined in README and behaviour are dangerous red flags.
+> Discrepancies between what is outlined in README and observed behaviour are dangerous red flags.
  
 I am committed to continuously iterate and improve, this is why my README is always in progress.
  
@@ -30,7 +31,7 @@ Being an Engineering Manager helps me to become a better version of myself. It h
  
 # My personal goal
  
-I can take a long break from work and it shouldn’t make a difference for the team, specifically, for my team member this would meen:
+I can take a long break from work and it shouldn’t make a difference for the team, specifically, for my team member this would mean:
 - They feel empowered as a human and as a leader to figure out what they need to do and they know the best way to do it and get it done.
 - They have enough context to understand priorities and what they need to focus on over the long period of time.
 - They have effective relationships with people in the company and know who to reach out when needed.
@@ -108,7 +109,7 @@ I don’t expect everyone to be busy all the time. I am very skeptical about idl
  
 ## Processes
  
-I am a big fan of processes. I used to hate them, but eventually came to the conclusion that processes are needed, but they can be done badly. I still hate processes that:
+I am a big fan of processes. I used to not like them, but eventually came to the conclusion that processes are needed, but they can be done badly. I still avoid processes that:
  
 - Are inconsistently applied and not repeatable
 - Are not documented and clearly communicated
