@@ -63,7 +63,7 @@ I enjoy participating in the day-to-day activities of the team and the company. 
  
 I feel fulfilled and accomplished in my job when I am able to empower others to do their best and become their best self. I’ll tell people personal life stories, learn from my past and present and be with people when they need to. When relevant, I’d try to guide towards optimal paths and solutions.
  
-# Individualization
+## Individualization
  
 I am intrigued by the unique qualities of each person. I tend to be impatient with the generalizations or types, because I don’t want to obscure what is special and distinct about people. I will collaborate and work with people to find the optimal balance between their and companies' needs.
  
