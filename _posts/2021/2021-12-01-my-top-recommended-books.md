@@ -7,7 +7,7 @@ I was going over the books that I managed to read in 2021 and realized that this
 
 Regardless of the genre, they provoked thoughts and gave perspective which I was lacking before, they challenged me, my beliefs and shaped me as a person.
 
-Initially I was thinking to provide some details about why a certain book appears in the list below, however I realized I want to keep it short. I am going only to give my subjective opinion on why you might want to check a specific book.
+Initially I was thinking to provide some details about why a certain book appears in the list below, however I realized I want to keep it short without any explanation, so please go ahead and explore the content.
 
 # Technology and engineering
 
