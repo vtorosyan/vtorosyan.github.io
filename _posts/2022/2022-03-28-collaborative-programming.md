@@ -8,6 +8,8 @@ title: Collaborative programming in remote-first environment
 ### Clarification on collaborative programming
  
 Collaborative programming is more known as pair programming. The word "pairing" carries a lot of baggage with it and sometimes triggers negative reactions, or can intimidate people who are willing to collaborate. In my experience, if you want to get a buy-in, indeed using "collaborative programming" wording over "pair programming" makes a difference. And fair enough - if we look into the official definition, collaboration is about two or more people working together to create or achieve something, whereas pairing is simply when you put two people together. So to me personally, pair programming makes less sense than collaborative programming in the given context, so I chose to use collaborative programming as a term in this blog post.
+
+Fun fact - I wrote about [pair programming](https://vtorosyan.github.io/pair-programming/){:_target="blank"} in the past, and I learned a lot since then (notice that the collaborative vs pairing dilemma is missing from there). 
  
 # Why collaborative programming
  
