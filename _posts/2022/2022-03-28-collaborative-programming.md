@@ -47,13 +47,13 @@ Once you agree with someone to do collaborative programming, it is better to ali
  
 Below is a quick template you can use to organize above mentioned points:
  
-- [] Agree on the high-level goal and write it down somewhere.
-- [] Agree on a time window when you will work together and plan breaks.
-- [] Agree on roles and how you will rotate roles.
-- [] Break the work into a handful of tasks and prioritize them.
-- [] Agree and set up the necessary tooling.
-- [] Configure git to share credit (see below).
-- [] Analyze the session with a mini retro. Ask for feedback from each other.
+- [ ] Agree on the high-level goal and write it down somewhere.
+- [ ] Agree on a time window when you will work together and plan breaks.
+- [ ] Agree on roles and how you will rotate roles.
+- [ ] Break the work into a handful of tasks and prioritize them.
+- [ ] Agree and set up the necessary tooling.
+- [ ] Configure git to share credit (see below).
+- [ ] Analyze the session with a mini retro. Ask for feedback from each other.
  
 ## Acknowledge the work
  
