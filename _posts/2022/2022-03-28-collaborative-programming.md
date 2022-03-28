@@ -5,6 +5,7 @@ title: Collaborative programming in remote-first environment
  
 [Grafana Labs](https://grafana.com/){:_target="blank"} is a remote-first company. We hire and work with people from all over the world. The team I am in is a 10 person team is distributed across 5 countries (you can read more about our team [here](https://grafana.com/blog/2022/01/07/building-an-effective-remote-first-team-during-the-pandemic/){:_target="blank"}. Sometimes we leverage benefits of synchronous communication and collaboration, however as an all-remote company, most of the work happens asynchronously. Recently we started experimenting with synchronous collaborative programming and I was putting together a guide for our team to use as a reference and I thought of turning it into a blog post.
  
+
 ### Clarification on collaborative programming
  
 Collaborative programming is more known as pair programming. The word "pairing" carries a lot of baggage with it and sometimes triggers negative reactions, or can intimidate people who are willing to collaborate. In my experience, if you want to get a buy-in, indeed using "collaborative programming" wording over "pair programming" makes a difference. And fair enough - if we look into the official definition, collaboration is about two or more people working together to create or achieve something, whereas pairing is simply when you put two people together. So to me personally, pair programming makes less sense than collaborative programming in the given context, so I chose to use collaborative programming as a term in this blog post.
