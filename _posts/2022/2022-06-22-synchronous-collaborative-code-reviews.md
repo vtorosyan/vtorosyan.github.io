@@ -35,9 +35,9 @@ Getting questions answered, updating changes and addressing comments introduce e
  
 Before jumping to a synchronous session, we use the following template as a guide to prepare for the session:
  
--[ ] Have a code change (e.g. Pull Request in GitHub) ready, ideally with a green CI.
--[ ] Prepare _context_ in advance - with a code change description or additional document.
--[ ] Ensure that the review can be done in max 1 hour (size the change correctly).
--[ ] Send a calendar invite, outline goals clearly.
+- Have a code change (e.g. Pull Request in GitHub) ready, ideally with a green CI.
+- Prepare _context_ in advance - with a code change description or additional document.
+- Ensure that the review can be done in max 1 hour (size the change correctly).
+- Send a calendar invite, outline goals clearly.
  
 Note that it is not expected that participants will talk all the time - being silent and reading code is more than fine.
