@@ -5,7 +5,7 @@ title: Synchronous, collaborative code reviews
  
 In my previous post I have talked about how we do [collaborative programming in a remote-first environment](https://vtorosyan.github.io/collaborative-programming/) in our team at Grafana Labs. At Grafana Labs, we practice [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and get code changes merged to the main branch several times a day, and part of the process is mandatory code review by someone else. Most of the code reviews happen asynchronously, with the help of [GitHub pull requests](https://github.com/grafana/grafana/pulls). Recently we have started to practice synchronous collaborative code reviews and this post talks about some of the advantages that we are observing while experimenting with the process.
 
-> Note: This post does not talk about the asynchronous code reviews and my intent is not to compare or anyhow undermine asynchronous code reviews - my only intention is to give another tool for code reviews, which might be applicable in certain situations.
+**Please note** that this post does not talk about the asynchronous code reviews and my intent is not to compare or anyhow undermine asynchronous code reviews - my only intention is to give another tool for code reviews, which might be applicable in certain situations.
  
 ## Introduction to code reviews
  
@@ -35,9 +35,9 @@ Getting questions answered, updating changes and addressing comments introduce e
  
 Before jumping to a synchronous session, we use the following template as a guide to prepare for the session:
  
-- [ ] Have a code change (e.g. Pull Request in GitHub) ready, ideally with a green CI.
-- [ ] Prepare _context_ in advance - with a code change description or additional document.
-- [ ] Ensure that the review can be done in max 1 hour (size the change correctly).
-- [ ] Send a calendar invite, outline goals clearly.
+-[ ] Have a code change (e.g. Pull Request in GitHub) ready, ideally with a green CI.
+-[ ] Prepare _context_ in advance - with a code change description or additional document.
+-[ ] Ensure that the review can be done in max 1 hour (size the change correctly).
+-[ ] Send a calendar invite, outline goals clearly.
  
 Note that it is not expected that participants will talk all the time - being silent and reading code is more than fine.
