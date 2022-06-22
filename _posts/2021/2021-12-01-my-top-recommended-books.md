@@ -3,6 +3,10 @@ layout: post
 title: My all time favorite books
 ---
 
+> Note: I am updating the list from time to time, although it was written in 2021. 
+
+**Last Updated**: 2022-06
+
 I was going over the books that I managed to read in 2021 and realized that this year was a bit special compared to my experience in the past years. This year, I was very quick to put away books that I picked up but did not enjoy reading, or did not find valuable for the given point of time. This gave me a chance to reflect a bit on my past readings and I thought to compile a short list of all time favorites.
 
 Regardless of the genre, they provoked thoughts and gave perspective which I was lacking before, they challenged me, my beliefs and shaped me as a person.
@@ -36,13 +40,14 @@ Initially I was thinking to provide some details about why a certain book appear
 - [High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management), by Andrew S. Grove
 - [Switch: How to Change Things When Change is Hard](https://www.goodreads.com/book/show/6570502-switch), by Chip Heath, Dan Heath
 
-# Self help
+# Self help / Science / Psychology
 
 - [Deep Work: Rules for Focused Success in a Distracted World](https://www.goodreads.com/book/show/25744928-deep-work)
 - [The Art of Thinking Clearly: Better Thinking, Better Decisions](https://www.goodreads.com/book/show/51504261-the-art-of-thinking-clearly), by Imnet Ernest
 - [The Courage to Be Disliked](https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked), Ichiro Kishimi, Fumitake Koga
 - [Range: Why Generalist Triumph In a Specialized World](https://www.goodreads.com/book/show/41795733-range), by David Epstein
 - [Meditations](https://www.goodreads.com/book/show/30659.Meditations), by Marcus Aurelius
+- [Thinking fast and slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), by Daniel Kahneman
 
 
 # Fiction and fantasy
