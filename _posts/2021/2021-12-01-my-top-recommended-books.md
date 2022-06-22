@@ -3,11 +3,9 @@ layout: post
 title: My all time favorite books
 ---
 
-> Note: I am updating the list from time to time, although it was written in 2021. 
-
-**Last Updated**: 2022-06
-
 I was going over the books that I managed to read in 2021 and realized that this year was a bit special compared to my experience in the past years. This year, I was very quick to put away books that I picked up but did not enjoy reading, or did not find valuable for the given point of time. This gave me a chance to reflect a bit on my past readings and I thought to compile a short list of all time favorites.
+
+> Note: I am updating the list from time to time, although it was written in 2021. **Last Updated**: 2022-06
 
 Regardless of the genre, they provoked thoughts and gave perspective which I was lacking before, they challenged me, my beliefs and shaped me as a person.
 
