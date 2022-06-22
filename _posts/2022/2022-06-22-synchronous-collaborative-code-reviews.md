@@ -5,17 +5,17 @@ title: Synchronous, collaborative code reviews
  
 In my previous post I have talked about how we do [collaborative programming in a remote-first environment](https://vtorosyan.github.io/collaborative-programming/) in our team at Grafana Labs. At Grafana Labs, we practice [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and get code changes merged to the main branch several times a day, and part of the process is mandatory code review by someone else. Most of the code reviews happen asynchronously, with the help of [GitHub pull requests](https://github.com/grafana/grafana/pulls). Recently we have started to practice synchronous collaborative code reviews and this post talks about some of the advantages that we are observing while experimenting with the process.
 
-**Please note** that this post does not talk about the asynchronous code reviews and my intent is not to compare or anyhow undermine asynchronous code reviews - my only intention is to give another tool for code reviews, which might be applicable in certain situations.
+**Please note** that this post does not talk about asynchronous code reviews and my intent is not to compare, or anyhow undermine asynchronous code reviews - my only intention is to give another tool for code reviews, which might be applicable to certain situations.
  
 ## Introduction to code reviews
  
-Code reviews are essential for continuous improvement of the code base and security of the product, as well as for knowledge sharing and learning from each other. There are a few different ways that code reviews can be performed:
+Code reviews are essential for continuous improvement of a code base and security of a product, as well as for knowledge sharing and learning from each other. There are a few different ways that code reviews can be performed:
  
 1. Asynchronous, through GitHub pull requests / checked in code.
 1. Synchronous, during a [collaborative programming](https://vtorosyan.github.io/collaborative-programming/).
 1. Synchronous, in a dedicated code review session.
  
-Asynchronous code reviews are widely known, and during collaborative programming code reviews happen organically, so I would like to talk about **synchronous code reviews in a dedicated code review session**.
+Asynchronous code reviews are widely known and adopted, and during collaborative programming code reviews happen organically, so I would like to talk about **synchronous code reviews in a dedicated code review session**.
  
 ## Why synchronous reviews?
  
