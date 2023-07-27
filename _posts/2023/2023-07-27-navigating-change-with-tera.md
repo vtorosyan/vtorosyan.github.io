@@ -48,7 +48,7 @@ You can minimize the impact of rank with keeping the following in mind:
 
 ### Autonomy
 
-The last question: "Do I have a say on this or not?". Unfortunately, autonomy is often sacrificed as sometimes the honest answer here is that no, you don't have a say. But whenever you can, engaging others and taking their input on a direction that change takes will make any change more successful. If you can, do the following:
+The last question: "Do I have a say on this or not?". Unfortunately, autonomy is often sacrificed as sometimes the honest answer here is that no, you don't have a say. But whenever you can, engaging others and considering their input will make any change more successful. If you can, do the following:
 
 - Delegate ownership: if not entire change, can parts of it be delegated and owned by others?
 - Actively ask for input and feedback, most importantly show people that you are taking that feedback into account.
@@ -56,4 +56,4 @@ The last question: "Do I have a say on this or not?". Unfortunately, autonomy is
 
 ## Quantifying TERA
 
-I came up with my own way to quantify TERA for individuals as well as for myself. My go to measurement mechanism now is to assess each component from 0 to 5. Anything lower than 13 points is an indication that I have work to do. It is not easy to go to the involved people and ask to assess themselves, and it is very hard often to see the score being very low - but the impact it has definitely justifies the cost of feeling uncomfortable. 
+I came up with my own way to quantify TERA for individuals, as well as for myself. My go to measurement mechanism now is to assess each component from 0 to 5. Anything lower than 13 points is an indication that I have work to do. Seeing low score is not easy, but that is just the start.
