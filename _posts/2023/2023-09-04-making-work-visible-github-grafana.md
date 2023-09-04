@@ -3,7 +3,13 @@ layout: post
 title: Making work visible with GitHub Projects and Grafana
 ---
 
-In the book [Making work visible, Dominica DeGrandis](https://ddegrandis.com/book/) exposes time-wasting activities at work and demonstrates how you can achieve flow efficiency by _making work visible_. Optimizing workstream management for effectiveness and efficiency is always something I think about. I've used many tools in the past to plan and track workstreams, and recently had a happy realization that [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) developed enough to call my number one and only tool for making work visible. I thought to apply some of the learnings from the beforementioned book and leverage GitHub Projects to make work visible. For the sake of measuring and improving, I've used Grafana to visualize few aggregates from the GitHub Project by using [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/).
+In the book [Making work visible, Dominica DeGrandis](https://ddegrandis.com/book/) exposes time-wasting activities at work and demonstrates how you can achieve flow efficiency by _making work visible_. Optimizing workstream management for effectiveness and efficiency is always something I think about. I've used many tools in the past to plan and track workstreams, and recently had a happy realization that [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) developed enough to call my number one and only tool for making work visible. I thought to apply some of the learnings from the aforementioned book and leverage GitHub Projects to make work visible. For the sake of measuring and improving, I've used [Grafana](https://grafana.com/) to visualize few aggregates from the GitHub Project by using [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/).
+
+
+# Prerequisite
+
+- This post assumes basic familiarity with [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects), so in case you are unfamiliar with the product, I'd highly encourage to [Learn about Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects) first.
+- In a similiar way, the post assumes basic familiarity with [Grafana](https://grafana.com/). If you are new to Grafana and want to try it out first, you can either use the [Free forever hosted plan](https://grafana.com/auth/sign-up/create-user?pg=hp&plcmt=hero-btn1&cta=create-free-account) or [Install](https://grafana.com/get/) it on your own machine.
 
 
 # Making work visible with GitHub Project
@@ -198,6 +204,37 @@ Last but not least, [Roadmap](https://github.com/users/vtorosyan/projects/1/view
 <img src="/images/gpj-roadmap.png" alt="roadmap"/>
 </div>
 
+## Tips
+
+There is so much more you can do with the projects. Here are couple of extra ideas:
+
+- Automate projects with [workflows](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions)
+- Export project data to TSV for analysis and importing to other tools.
+- Automatically add issues to the project from different repositories. 
 
 # Surface stats with Grafana
 
+Grafana allows you to dashboard _almost_ anything. I've installed [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/) on my free cloud instance. The datasource allows you to query Projects directly (and much more), all you need is a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) in GitHub with the right permissions. 
+
+My goal with a Grafana dashboard is:
+
+- Surface work in progress to engage safety valves when needed (i.e. to limit WIP when needed).
+- Visualize distribution of different categories and priorities between teams to ensure fair distribution and workload.
+- Visualize complexity distribution to know what to commit to and not.
+- Understand the distribution of rock, pebble and sand in the backlog to ensure that there is good balance between strategic and tactical work.
+
+<div align="center">
+<img src="/images/gpj-grafana-stats.png" alt="roadmap"/>
+</div>
+
+I've leveraged [Grafana Transformations](https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/transform-data/) to transform the data from GitHub to a format which I can visualize with Grafana panels.
+
+## Tips
+
+- Use [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) to warn/alert when certain limits are hit, for example work-in-progress limit.
+- Use GitHub Datasource to measure cycle time and other flow metrics (and watch the work, not the people).
+
+# References
+
+- [GitHub project](https://github.com/users/vtorosyan/projects/1/views/1) available in public to view and play with.
+- [GitHub repository](https://github.com/vtorosyan/making-work-visible-project/) with example issues.
