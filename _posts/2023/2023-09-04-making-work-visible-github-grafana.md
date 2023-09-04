@@ -3,17 +3,15 @@ layout: post
 title: Making work visible with GitHub Projects and Grafana
 ---
 
-In the book Making work visible, Dominica DeGrandis exposes time-wasting activities and demonstrates how you can achieve flow efficiency by _making work visible_. Optimizing value stream management to work effectively and efficiently is a constant topic in my head. I've used many tools in the past to plan and track work streams, and recently had a happy realization that GitHub Projects reached the maturity which enables me to make it the number one and only tool for making work visible. I thought to apply some of the learnings from the book and see how it can work with GitHub Projects. For the sake of measuring and improving, I've used Grafana to visualize few aggregates from the GitHub Project by using [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/).
+In the book [Making work visible, Dominica DeGrandis](https://ddegrandis.com/book/) exposes time-wasting activities at work and demonstrates how you can achieve flow efficiency by _making work visible_. Optimizing workstream management for effectiveness and efficiency is always something I think about. I've used many tools in the past to plan and track workstreams, and recently had a happy realization that [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) developed enough to call my number one and only tool for making work visible. I thought to apply some of the learnings from the beforementioned book and leverage GitHub Projects to make work visible. For the sake of measuring and improving, I've used Grafana to visualize few aggregates from the GitHub Project by using [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/).
 
 
 # Making work visible with GitHub Project
 
 
-This post assumes basic familiarity with GitHub Projects, so in case you are unfamiliar with the product, I'd highly encourage to [Learn about Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects) first.
+This post assumes basic familiarity with [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects), so in case you are unfamiliar with the product, I'd highly encourage to [Learn about Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects) first.
 
-
-To set up an example project, I've created an [example repository](https://github.com/vtorosyan/making-work-visible-project/issues) with random example issues. Before I move forward with the details, here are some of the constraints I had in mind when building the project:
-
+To set up an example project, I've created an [example repository](https://github.com/vtorosyan/making-work-visible-project/issues) with random issues. Here are some of the goals I had in mind when building the project:
 
 - The project should be a central and the only place for multiple teams to manage their stream of work and provide visibility to stakeholders.
 - The project should support some basic workflow of development, where the incoming requests are created as issues, triaged, worked on and completed accordingly.
@@ -21,7 +19,6 @@ To set up an example project, I've created an [example repository](https://githu
 
 
 ## Custom fields
-
 
 Determining what fields are needed for optimal tracking and workflows is not an easy task. Typically it requires multiple iterations until you find a right set of fields to have. One thing to be aware about is that the more required fields you have, the more would be the cost of keeping things up to date. The optimal number of fields I'd recommend is something in between 5 and 10. Less than 5 could be an indicator that important information is missing, more than 10 is an indicator that workflow needs to be simplified.
 
