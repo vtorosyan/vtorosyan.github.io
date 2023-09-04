@@ -212,7 +212,7 @@ There is so much more you can do with the projects. Here are couple of extra ide
 - Export project data to TSV for analysis and importing to other tools.
 - Automatically add issues to the project from different repositories. 
 
-# Surface stats with Grafana
+# Make work visible with Grafana
 
 Grafana allows you to dashboard _almost_ anything. I've installed [Grafana GitHub datasource](https://grafana.com/grafana/plugins/grafana-github-datasource/) on my free cloud instance. The datasource allows you to query Projects directly (and much more), all you need is a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) in GitHub with the right permissions. 
 
