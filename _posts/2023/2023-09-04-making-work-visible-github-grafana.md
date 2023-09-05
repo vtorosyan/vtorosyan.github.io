@@ -47,10 +47,9 @@ Intent: Capture the current state of an issue.
 
 #### Complexity:
 
-
-Type: Single select
-Options: XS, S, M, L, XL
-Intent: Capture rough complexity of an issue. Each option maps to a rough time window which can be used as a guide for understanding how long a certain issue might take.
+- Type: Single select
+- Options: XS, S, M, L, XL
+- Intent: Capture rough complexity of an issue. Each option maps to a rough time window which can be used as a guide for understanding how long a certain issue might take.
 
 
 <div align="center">
@@ -61,17 +60,17 @@ Intent: Capture rough complexity of an issue. Each option maps to a rough time w
 #### Start and end
 
 
-Type: Date
-Options: Calendar date
-Intent: Capture start and end date to have a roadmap view. Helps to create predictability.
+- Type: Date
+- Options: Calendar date
+- Intent: Capture start and end date to have a roadmap view. Helps to create predictability.
 
 
 #### Priority
 
 
-Type: Single select
-Options: P1, P2, P3, P4
-Intent: Capture relative priority.
+- Type: Single select
+- Options: P1, P2, P3, P4
+- Intent: Capture relative priority.
 
 
 <div align="center">
@@ -82,9 +81,9 @@ Intent: Capture relative priority.
 #### Team
 
 
-Type: Single select
-Options: TeamA, TeamB, TeamC
-Intent: Provide visibility about the team accountable for the issue.
+- Type: Single select
+- Options: TeamA, TeamB, TeamC
+- Intent: Provide visibility about the team accountable for the issue.
 
 
 <div align="center">
@@ -95,9 +94,9 @@ Intent: Provide visibility about the team accountable for the issue.
 #### Category
 
 
-Type: Single select
-Options: Unplanned, Business, Maintenance, Tech Health, Architecture
-Intent: Understand different streams of work that the team is working on.
+- Type: Single select
+- Options: Unplanned, Business, Maintenance, Tech Health, Architecture
+- Intent: Understand different streams of work that the team is working on.
 
 
 <div align="center">
@@ -108,9 +107,9 @@ Intent: Understand different streams of work that the team is working on.
 #### Request type
 
 
-Type: Single select
-Options: Internal, External
-Intent: Understand where the request/issue is coming from.
+- Type: Single select
+- Options: Internal, External
+- Intent: Understand where the request/issue is coming from.
 
 
 <div align="center">
@@ -121,9 +120,9 @@ Intent: Understand where the request/issue is coming from.
 #### Bucket
 
 
-Type: Single select
-Options: Rock, Pebble, Sand
-Intent: Understand relative impact and scope of the issue.
+- Type: Single select
+- Options: Rock, Pebble, Sand
+- Intent: Understand relative impact and scope of the issue.
 
 
 <div align="center">
