@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Framework for quantifying software engineer performance
+title: A framework for quantifying software engineer performance
 ---
 
 In many companies, the performance review season for the second half of the year has started. Performance reviews often bring stress, anxiety, and uncertainty. However, performance reviews also offer opportunities for growth, self-improvement, and a clearer path to success. For software engineers, the definition of "good performance" varies depending on factors such as company culture, business and personal objectives, role expectations, and attitude toward work. Many of these factors have a qualitative nature, which can be difficult to objectively measure, leading to friction.
