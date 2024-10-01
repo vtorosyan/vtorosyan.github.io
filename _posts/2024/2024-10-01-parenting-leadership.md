@@ -29,7 +29,7 @@ Being a parent is the hardest thing I've ever done. When I transitioned into man
 - **Dismissiveness:** Responding with phrases like "it's not that bad" or "just deal with it," which dismisses emotions and damages trust.
 - **Ignoring empathy:** Going straight into problem-solving without pausing to acknowledge the person’s emotional state, which can make leadership seem robotic or cold.
 
-## Give choices, not Orders, and build agency
+## Give choices, not orders, and build agency
 
 **Parenting:** Faber and Mazlish advocate for offering choices rather than commands, empowering children to make decisions and fostering cooperation. Dr. Kennedy focuses on helping children develop a sense of agency by giving them choices that align with their abilities.
 
