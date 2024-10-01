@@ -36,7 +36,7 @@ Being a parent is the hardest thing I've ever done. When I transitioned into man
 **Leadership:** Leaders should give structured choices, enabling team members to take ownership of their work. This builds agency and engagement, making people feel more responsible for their tasks and outcomes.
 
 **Antipatterns:**
-- **Micromanagement:** Dictating every step of a process, which strips team members of autonomy and stifles creativity.
+- **Micromanagement:** Dictating every step of a process, which strips team members of autonomy and suppresses creativity.
 - **Command-and-control:** Leading with rigid directives instead of offering choices, leading to disengaged team members who feel they have no say in their work.
 - **One-size-fits-all approach:** Offering the same set of choices to everyone, without considering individual strengths or interests, which can lead to disengagement.
 
@@ -47,7 +47,7 @@ Being a parent is the hardest thing I've ever done. When I transitioned into man
 **Leadership:** A solutions-oriented approach fosters a forward-thinking, growth-oriented culture. Encourage your team to see setbacks as chances for learning, not as failures. Mistakes are opportunities to improve—not moments to dwell on criticism.
 
 **Antipatterns:**
-- **Perfectionism:** Expecting flawless results every time, which creates a fear of failure and stifles innovation.
+- **Perfectionism:** Expecting flawless results every time, which creates a fear of failure and suppresses innovation.
 - **Blame culture:** Focusing on assigning blame when things go wrong, rather than problem-solving. This can lead to a toxic environment where people are afraid to admit mistakes.
 - **Dwelling on errors:** Constantly bringing up past mistakes rather than focusing on moving forward, which can demoralize the team.
 
