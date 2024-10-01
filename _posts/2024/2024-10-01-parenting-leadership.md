@@ -5,7 +5,7 @@ title: Parenting and leadership
 
 Being a parent is the hardest thing I've ever done. When I transitioned into management, I dove into books on leadership, looking for every detail I could find. But what surprised me was how often the lessons from those books applied to parenting and vice versa. Over time, I found myself using skills I learned as a parent at work and leadership principles at home. Nowadays, when someone in a leadership position asks me what to read, I always recommend two parenting books: *How to Talk So Kids Will Listen & Listen So Kids Will Talk* by Adele Faber and Elaine Mazlish, and *Good Inside: A Guide to Becoming the Parent You Want to Be* by Dr. Becky Kennedy. I've distilled the information from these books into principles that I _try_ to apply daily, both at work and at home.
 
-## Parenting principles translated to leadership
+# Parenting principles translated to leadership
 
 ## Assume good intentions and acknowledge feelings
 
@@ -73,7 +73,7 @@ Being a parent is the hardest thing I've ever done. When I transitioned into man
 - **Ignoring feedback:** Listening without acting on feedback, which makes team members feel their opinions don’t matter.
 - **Over-directive leadership:** Giving specific instructions for every task, preventing team members from developing their problem-solving skills and initiative.
 
-## Where I struggle most
+# Where I struggle most
 
 I’ve recognized that my biggest challenges come from my natural tendencies. I’ve always had a “fix-it” mindset. When I hear a problem, my first instinct is to jump in and offer a solution right away. I often justify myself saying that it’s a strength in terms of efficiency, but it’s also a pitfall. I often find myself rushing to conclusions without fully understanding the problem or acknowledging the emotions behind it.
 
