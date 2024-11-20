@@ -25,7 +25,7 @@ It’s important to note that the answers to these steps will evolve over time. 
 
 ### Understanding your values and principles
 
-The first step in owning your career is understanding what truly matters to you. A helpful tool for this is Brené Brown’s **[Living Into Our Values](https://brenebrown.com/resources/living-into-our-values/)** exercise.
+The first step in owning your career is understanding what truly matters to you. A helpful tool for this is Brené Brown’s [Living Into Our Values](https://brenebrown.com/resources/living-into-our-values/) exercise.
 
 I highly encourage calibrating this exercise with a manager, mentor, peer, or friend. This builds self-awareness and establishes a foundation for future collaboration and decision-making.
 
@@ -74,11 +74,11 @@ Once you have your map, the next step is identifying what you need to bridge the
 #### Personal Development Plans  
 Create a plan outlining the **skills and capabilities** you need to develop.  
 
-#### track your growth using 3 key metrics (on a scale of 0 to 5):  
+#### Track your growth using 3 key metrics (on a scale of 0 to 5):  
 
-1. **Are you learning? Are you growing?**  
-2. **Are you gaining transferable skills or just learning how to cope with your current job?**  
-3. **How confident and capable do you feel in your role?**
+1. Are you learning? Are you growing?  
+2. Are you gaining transferable skills or just learning how to cope with your current job? 
+3. How confident and capable do you feel in your role?
 
 Over time, you will identify patterns and see correlations based on your answers.
 
@@ -92,9 +92,9 @@ Document your achievements and milestones. This not only builds confidence but a
 
 A structured rhythm helps create predictability, ensures accountability, and keeps you moving forward. My rule of thumb is:
 
-1. **Revisit your values and principles annually**  
-2. **Rebuild your career map every 6 months**  
-3. **Review your progress quarterly (every 3 months)**  
+1. Revisit your values and principles annually.
+2. Rebuild your career map every 6 months.  
+3. Review your progress quarterly (every 3 months).
 
 ---
 
