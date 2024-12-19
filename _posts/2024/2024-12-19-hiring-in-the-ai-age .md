@@ -37,8 +37,7 @@ I’ve started to identify patterns and signals that can help me screen out such
 1. **Missing LinkedIn profiles:** Candidates list companies and roles but don’t include an active LinkedIn profile or any other online presence.  
 2. **Untraceable email addresses:** A quick search of their email address yields no results online.  
 3. **Big enterprise experience without specifics:** Candidates list large, anonymous organizations where it’s hard to verify their roles or contributions.  
-4. **“Spaghetti” experience:** CVs list a broad, mismatched collection of programming languages and frameworks that seem to cover everything but lack depth.  
-
+4. **“Spaghetti” experience:** CVs list a broad, mismatched collection of programming languages and frameworks that seem to cover everything but lack depth.
 5. **Too-good-to-be-true matches:** CVs magically align with the exact criteria and requirements of the job posting.  
 
 ### During the interview  
