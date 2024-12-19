@@ -3,7 +3,7 @@ layout: post
 title: Hiring in the age of GenAI 
 ---
 
-As a hiring manager, I’ve recently startedthe process of recruiting for an open role on my team. This post is not an advertisement for that role but rather an opportunity to share some loud thoughts and reflections after my initial experiences with this hiring cycle.
+As a hiring manager, I’ve recently started the process of recruiting for an open role on my team. This post is not an advertisement for that role but rather an opportunity to share some loud thoughts and reflections after my initial experiences with this hiring cycle.
 
 To set the stage: the last time I actively hired was two years ago—before the widespread adoption of GenAI tools across industries. Over the past couple of weeks, while screening candidates, So far, 75% of the people I interviewed seemed to use GenAI tools to answer questions during the interviews. Furthermore, I suspect that many of these candidates also presented fake profiles.
 
