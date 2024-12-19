@@ -17,23 +17,12 @@ It’s worth noting that the candidate sample size has been small so far. Still,
 
 Here are some patterns I’ve noticed among candidates:  
 
-1. **Buzzword-laden introductions**  
-   - Candidates start with a nonstop stream of buzzwords, saying things like, “I did X, which improved Y by Z percent.” While this existed before AI, there’s now a complete lack of authenticity—it often feels like someone reading from a script.  
-
-2. **Superficial knowledge of listed companies**  
-   - Candidates claim to have worked at well-known companies but can only describe generic roles and teams. They struggle to go deeper into functional areas, domains, or the organization’s landscape. Sometimes, they can’t even explain the company’s business.  
-
-3. **Inability to answer questions about their CV**  
-   - Candidates often repeat vague statements about their work without elaborating. When I probe deeper, they simply repeat the same points without offering any meaningful detail.  
-
-4. **Easily manipulated responses**  
-   - By suggesting a flawed idea (e.g., “Maybe X approach is better?”), candidates will agree enthusiastically, even if the suggestion is objectively terrible.  
-
-5. **Claiming expertise in everything**  
-   - Candidates confidently answer every question and claim to have experience with any technology or scenario I mention.  
-
-6. **Lack of meaningful questions**  
-   - Candidates struggle to ask thoughtful or relevant questions themselves, often posing very simplistic or even nonsensical queries that don't align with the role or the discussion.  
+1. **Buzzword-laden introductions:** Candidates start with a nonstop stream of buzzwords, saying things like, “I did X, which improved Y by Z percent.” While this existed before AI, there’s now a complete lack of authenticity—it often feels like someone reading from a script.  
+2. **Superficial knowledge of listed companies:** Candidates claim to have worked at well-known companies but can only describe generic roles and teams. They struggle to go deeper into functional areas, domains, or the organization’s landscape. Sometimes, they can’t even explain the company’s business.  
+3. **Inability to answer questions about their CV:** Candidates often repeat vague statements about their work without elaborating. When I probe deeper, they simply repeat the same points without offering any meaningful detail.  
+4. **Easily manipulated responses:** By suggesting a flawed idea (e.g., “Maybe X approach is better?”), candidates will agree enthusiastically, even if the suggestion is objectively terrible.  
+5. **Claiming expertise in everything:** Candidates confidently answer every question and claim to have experience with any technology or scenario I mention.  
+6. **Lack of meaningful questions:** Candidates struggle to ask thoughtful or relevant questions themselves, often posing very simplistic or even nonsensical queries that don't align with the role or the discussion.  
 
 ## The puzzling intent  
 
@@ -45,37 +34,20 @@ I’ve started to identify patterns and signals that can help me screen out such
 
 ### During CV screening  
 
-1. **Missing LinkedIn profiles**  
-   - Candidates list companies and roles but don’t include an active LinkedIn profile or any other online presence.  
+1. **Missing LinkedIn profiles:** Candidates list companies and roles but don’t include an active LinkedIn profile or any other online presence.  
+2. **Untraceable email addresses:** A quick search of their email address yields no results online.  
+3. **Big enterprise experience without specifics:** Candidates list large, anonymous organizations where it’s hard to verify their roles or contributions.  
+4. **“Spaghetti” experience:** CVs list a broad, mismatched collection of programming languages and frameworks that seem to cover everything but lack depth.  
 
-2. **Untraceable email addresses**  
-   - A quick search of their email address yields no results online.  
-
-3. **Big enterprise experience without specifics**  
-   - Candidates list large, anonymous organizations where it’s hard to verify their roles or contributions.  
-
-4. **“Spaghetti” experience**  
-   - CVs list a broad, mismatched collection of programming languages and frameworks that seem to cover everything but lack depth.  
-
-5. **Too-good-to-be-true matches**  
-   - CVs magically align with the exact criteria and requirements of the job posting.  
+5. **Too-good-to-be-true matches:** CVs magically align with the exact criteria and requirements of the job posting.  
 
 ### During the interview  
 
-1. **Autorobotic answers**  
-   - Candidates don’t listen to questions properly and give generic or rehearsed answers.  
-
-2. **Repetition**  
-   - They repeat the same answer for different questions, often quoting sentences directly from their CV.  
-
-3. **Long pauses**  
-   - Candidates take long pauses before answering, not for thoughtful reflection, but seemingly to buy time while repeating random filler phrases.  
-
-4. **Superficial understanding of their CV**  
-   - They cannot answer specific questions about their current or past roles, teams, or company.  
-
-5. **Nonsensical questions**  
-   - They ask simplistic, irrelevant, or nonsensical questions that do not reflect any effort to engage with the role or the discussion.  
+1. **Autorobotic answers:** Candidates don’t listen to questions properly and give generic or rehearsed answers.  
+2. **Repetition:** They repeat the same answer for different questions, often quoting sentences directly from their CV.  
+3. **Long pauses:** Candidates take long pauses before answering, not for thoughtful reflection, but seemingly to buy time while repeating random filler phrases.  
+4. **Superficial understanding of their CV:** They cannot answer specific questions about their current or past roles, teams, or company.  
+5. **Nonsensical questions:** They ask simplistic, irrelevant, or nonsensical questions that do not reflect any effort to engage with the role or the discussion.  
 
 ### Be bold and ask directly  
 
