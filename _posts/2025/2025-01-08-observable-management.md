@@ -3,7 +3,7 @@ layout: post
 title: Observable management
 ---
 
-At some point in their career, almost every engineer asks, *"What does my manager actually do?"* As an engineering manager, much of my work is what I call "invisible—important". This invisibility can lead to mistrust, misalignment, and a lack of understanding about how a manager contributes to team success.  
+At some point in their career, almost every engineer asks, *"What does my manager actually do?"* As an engineering manager, much of my work is what I call "invisible-important". This invisibility can lead to mistrust, misalignment, and a lack of understanding about how a manager contributes to team success.  
 
 This is where the concept of **observable management** comes in. Observable management for me is about making my work visible, understandable, and relatable to the teams I support. It’s an _approach_ that builds trust, alignment, and creates a stronger connection between my effort and the outcomes the team values.  
 
@@ -40,41 +40,19 @@ Observable management isn’t just about what I do—it’s about aligning my wo
 
 ## Expanding observable management with metrics and dashboards  
 
-While I’ve primarily relied on sharing documents and open communication to practice observable management, I’ve been reflecting on how to take this concept further by integrating metrics and dashboards.  
+While I’ve primarily relied on sharing documents and open communication to practice observable management, I’ve been reflecting on how to take this concept further by integrating metrics and dashboards. What if management could be made as visible and measurable as engineering systems? 
 
-### A theory to explore  
-
-What if management could be made as visible and measurable as engineering systems? Here’s an idea I’d like to experiment with:  
-
-1. **Team pulse**  
-   Track indicators like engagement levels, team dynamics, and workload balance. For example:  
-   - Quarterly pulse surveys for team morale.  
-   - Ratio of strategic projects (rocks), tactical efforts (pebbles), and quick wins (sand).  
-   - Conflict resolution times or other markers of team functionality.  
-
-2. **Stakeholder alignment metrics**  
-   Measure how well the team’s work aligns with and is understood by stakeholders:  
-   - Stakeholder feedback scores from surveys or retrospectives.  
-   - Frequency and clarity of roadmap updates and strategy check-ins.  
-   - Access and usage of team documentation.  
-
-3. **Managerial pulse**  
-   Reflect on my own contributions and impact:  
-   - Time spent on coaching, mentoring, or supporting the team.  
-   - Progress on personal growth initiatives that benefit the team.  
-   - Retrospective feedback from the team on my effectiveness.  
-
-### Using dashboards to make metrics visible  
+### Team pulse
 
 One example of this is the **Team Pulse dashboard** I’ve implemented. This dashboard surfaces data collected from quarterly surveys about team health, including metrics like confidence, morale, and alignment. By visualizing this data in Grafana, I can track trends over time and identify areas for improvement.  
 
-The dashboard isn’t just for me—it’s shared openly with the team, fostering transparency and sparking discussions about what’s working and where we can grow. It’s been a valuable tool for aligning feedback with action and creating a shared sense of ownership over our progress.  
+The dashboard isn’t just for me-it’s shared openly with the team, fostering transparency and sparking discussions about what’s working and where we can grow. It’s been a valuable tool for aligning feedback with action and creating a shared sense of ownership over our progress.  
 
 <div align="center">
 <img src="/images/team-pulse.png" alt="Team Pulse"/>
 </div>
 
-### Beyond team pulse: a theory for future dashboards  
+### Beyond team pulse: a theory for future experiments  
 
 Building on the success of the Team Pulse dashboard, I’m considering how to extend the use of dashboards to other areas of observable management. For example:  
 
