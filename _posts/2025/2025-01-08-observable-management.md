@@ -56,13 +56,11 @@ The dashboard isn’t just for me-it’s shared openly with the team, fostering 
 
 Building on the success of the Team Pulse dashboard, I’m considering how to extend the use of dashboards to other areas of observable management. For example:  
 
-1. **Stakeholder alignment metrics**  
-   A dashboard that tracks how well the team’s work aligns with stakeholder expectations. Panels could include:  
+1. **Stakeholder alignment metrics:** A dashboard that tracks how well the team’s work aligns with stakeholder expectations. Panels could include:  
    - Frequency of roadmap updates and check-ins.  
    - Stakeholder satisfaction scores from feedback surveys.  
 
-2. **Managerial effectiveness metrics**  
-   A dashboard that makes my own work visible and measurable. Panels could include:  
+2. **Managerial effectiveness metrics:** A dashboard that makes my own work visible and measurable. Panels could include:  
    - Time allocation across 1-on-1s, coaching, and strategy work.  
    - Feedback scores from team members about my leadership effectiveness.  
 
