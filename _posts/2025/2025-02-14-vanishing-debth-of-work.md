@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The vanishing depth of work
+title: Memo - the vanishing depth of work
 ---
 
 There’s a particular feeling you get when you step outside in a big, crowded city. The moment the door swings open, a wave of motion hits you — buses rushing by, people navigating sidewalks without eye contact, a thousand tiny urgencies moving in every direction. You don’t stop to think about it. You just step in and let yourself be carried by the current. 
