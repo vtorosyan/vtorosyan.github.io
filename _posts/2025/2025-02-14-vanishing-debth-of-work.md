@@ -37,7 +37,7 @@ In an office, decisions don’t always happen in a meeting room. They continue. 
 
 But in remote work, everything is a discrete event. A call starts, a call ends. You don’t know when you’ll talk to that person again unless it’s scheduled. The flow of work—of conversation, of shared thinking—has been broken into fragments.
 
-I miss the in-between moments. The continuation of relationships that office life provided—the way a casual chat could lead somewhere unexpected, the way knowledge was absorbed naturally rather than documented in Notion pages and Slack threads.
+I miss the in-between moments. The continuation of relationships that office life provided—the way a casual chat could lead somewhere unexpected, the way knowledge was absorbed naturally rather than documented in Wiki pages and Slack threads.
 
 There’s a kind of loneliness in remote work that isn’t about being physically alone. It’s the loneliness of only interacting when necessary. When did work relationships become meetings instead of experiences?
 
