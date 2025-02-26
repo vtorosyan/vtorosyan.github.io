@@ -3,7 +3,7 @@ layout: post
 title: The Fast Shipping Antithesis: Why Speed Alone Isn’t Enough
 ---
 
-After publishing *[Vanishing Depth of Work])(https://vtorosyan.github.io/vanishing-debth-of-work/)*, I had several conversations with people across the industry who resonated with the ideas but also challenged and expanded on them in interesting ways. These discussions led me to reflect even deeper on the relationship between deep work, fast shipping, and the dopamine-driven cycles that shape modern work culture. This post is a follow-up to explore those insights further.
+After publishing *[Vanishing Depth of Work](https://vtorosyan.github.io/vanishing-debth-of-work/)*, I had several conversations with people across the industry who resonated with the ideas but also challenged and expanded on them in interesting ways. These discussions led me to reflect even deeper on the relationship between deep work, fast shipping, and the dopamine-driven cycles that shape modern work culture. This post is a follow-up to explore those insights further.
 
 # The dopamine effect of deep work vs. shipping fast
 
