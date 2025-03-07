@@ -56,6 +56,14 @@ Promotions aren’t about potential, they’re about demonstrated ability. By th
 
 If you need to convince yourself (or others) that you’re ready, you probably aren’t there yet. Instead of chasing a title, focus on expanding your scope, refining your influence, and making your impact undeniable.
 
+### Working backwards from your promotion case
+
+In product development, there’s a concept called “working backwards,” where teams start by writing a press release describing the finished product and then work backwards to build it. This ensures that every decision along the way aligns with the desired outcome.
+
+The same approach works surprisingly well for promotions. Instead of waiting until the review cycle to piece together your case, try writing your own promotion package in advance—describing why you should be promoted, what impact you’ve had, and what differentiates you. Then, work backwards from there.
+
+This exercise can reveal gaps in your story, highlight areas where your contributions aren’t yet clear, and help you focus your efforts in a way that makes your promotion case stronger when the time comes.
+
 ### Final thoughts
 
 A promotion isn’t something you “go for.” It’s something that naturally happens when you’ve built enough proof that you’re already operating at the next level.
