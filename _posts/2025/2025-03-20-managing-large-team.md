@@ -81,7 +81,7 @@ With a smaller team, I could dedicate time to supporting underperforming individ
 
 I haven’t found a perfect solution. The best I can do is remind myself: This is my job, I have to do it. But the emotional burden is real.
 
-Managing Time
+## Managing Time
 
 In a given week, I have 15–19 one-on-one meetings (30 minutes each), plus all the other team and leadership meetings. I mapped out my entire schedule and distributed meetings evenly across the week.
 
