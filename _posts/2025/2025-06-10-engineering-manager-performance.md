@@ -65,8 +65,8 @@ Performance = w₁(Input) + w₂(Output) + w₃(Outcome) + w₄(Impact)
 The weights shift based on your role and scope:
 
 | Manager Level              | Input | Output | Outcome | Impact |
-| -------------------------- | :---: | :----: | :-----: | :----: |
-| First-time Manager         |  40%  |   40%  |   15%   |   5%   |
+| -------------------------- | --- | ---- | ----- | ---- |
+| Engineering Manager         |  40%  |   40%  |   15%   |   5%   |
 | Senior Engineering Manager |  20%  |   30%  |   30%   |   20%  |
 | Director                   |  10%  |   20%  |   30%   |   40%  |
 
