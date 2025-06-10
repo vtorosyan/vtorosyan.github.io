@@ -64,11 +64,9 @@ Performance = w₁(Input) + w₂(Output) + w₃(Outcome) + w₄(Impact)
 
 The weights shift based on your role and scope:
 
-| Manager Level    | Input | Output | Outcome | Impact |
-| -------------------------- | --- | ---- | ----- | ---- |
-| Engineering Manager         |  40%  |   40%  |   15%   |   5%   |
-| Senior Engineering Manager |  20%  |   30%  |   30%   |   20%  |
-| Director                   |  10%  |   20%  |   30%   |   40%  |
+<div align="center">
+<img src="/images/performance.png" alt="performance-ratio"/>
+</div>
 
 This framework helps clarify expectations and makes performance conversations less subjective.
 
