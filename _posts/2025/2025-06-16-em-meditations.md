@@ -34,16 +34,16 @@ Stoicism doesn’t remove the chaos. But it helps create space between the chaos
 Over time, I’ve built a few rituals that stuck:
 
 - **Morning intention**: Before a high-stakes conversation, I pause and ask: *What kind of leader do I want to be in this meeting?*  
-- **Evening reflection**: A short check-in—what went well, what felt off, what I avoided  
+- **Evening reflection**: A short check-in-what went well, what felt off, what I avoided  
 - **Negative visualization**: What if this person resigns? What if the launch fails? Rehearsing it keeps me calm when it happens  
-- **The view from above**: Zooming out—will this still matter in a month? What would my future self advise?
+- **The view from above**: Zooming out-will this still matter in a month? What would my future self advise?
 
 
 ## Why I’m writing
 
 *EM Meditations* is a GitHub repo where I’ll publish short reflections on engineering management, each grounded in a Stoic quote or idea.
 
-It’s part journal, part practice. Not a guide, not advice—just honest thinking made public.
+It’s part journal, part practice. Not a guide, not advice-just honest thinking made public.
 
 I hope it helps other engineering leaders feel a little more steady, a little more clear-headed, and a little less alone.
 
