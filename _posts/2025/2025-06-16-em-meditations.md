@@ -3,7 +3,7 @@ title: "Stoicism for Engineering Managers"
 layout: post
 ---
 
-Before I ever read *[The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic)*, I had already spent time with the original works—Seneca, Epictetus, Marcus Aurelius. I loved them. But I always felt like something was missing: a version that brought it all together. A single place where the ideas were accessible, organized, and felt close to the world I live in.
+Before I ever read *[The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic)*, I had already spent time with the original works-Seneca, Epictetus, Marcus Aurelius. I loved them. But I always felt like something was missing: a version that brought it all together. A single place where the ideas were accessible, organized, and felt close to the world I live in.
 
 When I discovered *The Daily Stoic* by Ryan Holiday, it clicked. One quote a day, one short reflection. Simple, structured. It became a daily ritual. And after a while, I started thinking: what if I did the same - but for engineering managers?
 
