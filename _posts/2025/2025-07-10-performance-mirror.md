@@ -13,11 +13,11 @@ Over time, I learned to do the hard thing. But I kept wondering: is there a way 
 
 When it comes to performance, a few challenges keep showing up:
 
-1. **It puts people in a vulnerable position.**  
+### 1. **It puts people in a vulnerable position.**  
 
 Feedback - whether you're giving or receiving - triggers insecurity. We crave safety and predictability. There’s a primitive survival mechanism in our brains: if we can predict what’s coming, we feel safe. If not, our alert systems fire up. That’s why the darkness is scary and daylight isn't. So the core question becomes: *how do we make performance predictable?* What leading indicators can increase our chances of knowing where we'll end up in N months?
 
-2. **TTA and TTR matter more than we realize.**  
+### 2. **TTA and TTR matter more than we realize.**  
 
 These two metrics - **TTA (Time to Awareness)** and **TTR (Time to Resolution)** - quietly drive a huge portion of performance outcomes.  
    - High TTA means it takes too long to recognize when something's off.  
@@ -25,7 +25,7 @@ These two metrics - **TTA (Time to Awareness)** and **TTR (Time to Resolution)**
 
 Together, they lead to misalignment, wasted time, and preventable exits. So I ask myself: *how do I reduce both TTA and TTR?*
 
-3. **Most people aren’t radically self-aware.**  
+### 3. **Most people aren’t radically self-aware.**  
 
 Some level of self-awareness is common. But radical self-awareness - the kind that forces you to face uncomfortable truths about your performance, strengths, and growth gaps - is rare. And that’s understandable: the truth can feel threatening. But I believe performance quantification can be a powerful trigger to start this kind of self-inquiry.
 
@@ -78,7 +78,7 @@ So here’s where I’m going next:
   Tracks your history across jobs, accomplishments, struggles. Helps you find growth opportunities and make smarter moves.
 
 - **Pluggable integrations**  
-  Pulls in data from GitHub, RFCs, project tools—wherever your work lives.
+  Pulls in data from GitHub, RFCs, project tools-wherever your work lives.
 
 - **Quantified performance with real recommendations**  
   IOOI-based performance tracking with tailored advice. Helps you reframe, recover, and progress.
