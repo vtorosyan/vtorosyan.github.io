@@ -23,13 +23,13 @@ So the question becomes: how do we keep our culture kind and collaborative, whil
 
 ## Temporary DRI: making ownership lightweight
 
-One simple practice to explire is the idea of a temporary DRI - someone who steps up to own just the next step or decision. Not the whole project. Not the full outcome. Just the moment that’s currently stuck.
+One simple practice to explire is the idea of a temporary DRI (Directly Responsible Individual) - someone who steps up to own just the next step or decision. Not the whole project. Not the full outcome. Just the moment that’s currently stuck.
 
 It doesn’t have to be the manager. Or the product owner. Anyone can say: “I’ll take temporary DRI on this until we close the loop.”
 
 That’s it. It gives the team a driver without creating hierarchy. It builds agency and it keeps momentum. And it reduces the ambiguity that often paralyzes distributed teams.
 
-## Rscalation as a service
+## Escalation as a service
 
 The second cultural shift you can try is to reframe how you think about escalation. Instead of treating it like a failure mode, you treat it as a service.
 
