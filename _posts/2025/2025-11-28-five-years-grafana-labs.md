@@ -25,7 +25,7 @@ But it hasn't all been rainbows, I had moments where I wondered if I was actuall
 
 2. **Emotional asymmetry**: Remote work is incredible, but it is emotionally asymmetric. You don’t see people in the hallway. You don’t sense tension early. Sometimes you discover problems only when they are fully grown trees, not when they are seedlings. You have to work twice as hard to keep your finger on the pulse.
 
-3. **Uneven growth pace**: The speed of growth means not everyone grows at the same pace. Some people outgrow their roles, some fall behind, and some freeze. Managing that dynamic—fairly, humanely, transparently—is one of the hardest parts of leadership.
+3. **Uneven growth pace**: The speed of growth means not everyone grows at the same pace. Some people outgrow their roles, some fall behind, and some freeze. Managing that dynamic in fair and humanly way is one of the hardest parts of leadership.
 
 4. **Adrenaline vs. Systems**: The temptation to optimize for short-term output is always there. The industry chases "ship faster" and "deliver more." But great teams don’t survive on adrenaline; they survive on systems. Resisting the adrenaline rush was often harder than embracing it.
 
