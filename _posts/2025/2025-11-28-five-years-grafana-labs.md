@@ -29,6 +29,6 @@ But it hasn't all been rainbows, I had moments where I wondered if I was actuall
 
 4. **Adrenaline vs. Systems**: The temptation to optimize for short-term output is always there. The industry chases "ship faster" and "deliver more." But great teams don’t survive on adrenaline; they survive on systems. Resisting the adrenaline rush was often harder than embracing it.
 
-5. **Uncomfortable truths**: Being honest about culture is uncomfortable. Every company has blind spots, and pointing at them can feel like poking the bear, but avoiding it only makes the culture smaller. Learning how to name uncomfortable truths without being destructive—that was the real challenge.
+5. **Uncomfortable truths**: Being honest about culture is uncomfortable. Every company has blind spots, and pointing at them can feel like poking the bear, but avoiding it only makes the culture smaller. Learning how to name uncomfortable truths without being destructive, that was the real challenge.
 
 Here is to the next chapter. Grafana Labs here to stay! Also, we are almost always [hiring](https://grafana.com/about/careers/open-positions/)
