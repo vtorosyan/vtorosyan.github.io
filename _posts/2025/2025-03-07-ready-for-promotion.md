@@ -44,11 +44,11 @@ One of the biggest mistakes people make is assuming their work speaks for itself
 Promotion reviewers are often people who don’t work with you directly. If your impact isn’t easy to understand, it may not be recognized.
 
 Your work needs to be:
-	• Traceable – Can someone clearly see the progression of your contributions over time?
-	• Observable – Is there tangible evidence of what you’ve built, influenced, or improved?
-	•Easy to parse – Can someone who doesn’t know you quickly grasp why your work matters?
+- Traceable: Can someone clearly see the progression of your contributions over time?
+- Observable: Is there tangible evidence of what you’ve built, influenced, or improved?
+- Easy to parse: Can someone who doesn’t know you quickly grasp why your work matters?
 
-This is why **outputs still matter**—despite the common advice to focus on impact and outcomes. While impact is the goal, people reviewing promotion cases often look for concrete evidence. If your work isn’t well-documented or lacks clear proof points, it becomes harder to advocate for your promotion.
+This is why **outputs still matter**:despite the common advice to focus on impact and outcomes. While impact is the goal, people reviewing promotion cases often look for concrete evidence. If your work isn’t well-documented or lacks clear proof points, it becomes harder to advocate for your promotion.
 
 ### 5. Have you already been operating at the next level?
 
