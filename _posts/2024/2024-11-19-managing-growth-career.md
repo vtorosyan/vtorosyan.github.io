@@ -5,7 +5,7 @@ title: How to manage your career and personal growth
 
 In the past, I often found myself wanting to take charge of my career and personal growth, but I’d end up procrastinating or just going with the flow. Instead of managing things proactively, I would react to situations as they arose. When I transitioned into management and started having deeper conversations about career development with the people I support, I realized I wasn’t alone.  
 
-In 80% of these conversations, I encountered awkward silences and a common refrain: *“I’m not sure—I just want to do my work.”* Yet, when someone leaves a company, one of the most frequent reasons cited is a lack of career progression and growth.  
+In 80% of these conversations, I encountered awkward silences and a common refrain: *“I’m not sure, I just want to do my work.”* Yet, when someone leaves a company, one of the most frequent reasons cited is a lack of career progression and growth.  
 
 This experience made it clear to me: the absence of a structured system to manage and predict one’s career growth is a significant factor in this problem. By analyzing how different components interact and influence one another, I developed a system to address the challenges I faced—and it’s helped others too.
 
