@@ -68,6 +68,14 @@ Naming what I didn’t understand reduced the pressure to fake confidence. It al
 
 ## Reverse Engineering the Goals (Even If I Later Threw It Away)
 
+One of the exercises I tried early on was to reverse engineer the squad’s goals. I synthesized what I thought the real objectives were and asked the team and PM: “Did I get this right?”
+
+In hindsight, the document was probably too verbose and too heavy. It’s not something I would keep long term. But the exercise forced me to confront misalignment early.
+
+Sometimes the value of a document isn’t in keeping it. It’s in thinking through it.
+
+## Treat Onboarding Like Data Collection
+
 For the first month, I aggressively took notes.
 
 - Every 1:1.  
