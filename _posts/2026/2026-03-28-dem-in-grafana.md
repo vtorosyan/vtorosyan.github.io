@@ -11,9 +11,10 @@ The app is intentionally simple: no database, a fake checkout flow, a status pag
 
 What I ended up learning was that Digital Experience Monitoring is not really about collecting more signals. It is about how quickly you can move through the steps that matter: detect, scope, select a session, view what happened, diagnose, fix, and validate.
 
+
 ## From signals to understanding
 
-Digital Experience Monitoring (DEM) is often described in terms of signals: synthetic checks, frontend telemetry, logs and traces and so forth. Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly:
+Digital Experience Monitoring (DEM) is often described in terms of signals: [synthetic checks](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/), [frontend observability](https://grafana.com/docs/grafana-cloud/monitor-applications/frontend-observability/), logs and traces and so forth. Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly:
 
 > the problem isn’t collecting signals, it’s making sense of them when something breaks
 
@@ -62,9 +63,7 @@ This is where the picture started to form. The failure wasn’t just synthetic, 
 
 ## Understand
 
-This was the most interesting part of the experience. Knowing that users are affected still leaves a gap:
-
-**what actually happens when the flow breaks?**
+This was the most interesting part of the experience. Knowing that users are affected still leaves a gap: **what actually happens when the flow breaks?**
 
 Logs and metrics can help, but they require interpretation.
 
@@ -107,9 +106,7 @@ Synthetic Monitoring isn’t just about detecting failures. It’s also a reliab
 
 ## What changed for me
 
-Before this exercise, I thought about DEM mostly in terms of capabilities (checks, signals, integrations, etc). After walking the lifecycle, I started thinking about it differently:
-
-> not as a collection of signals, but as a workflow
+Before this exercise, I thought about DEM mostly in terms of capabilities (checks, signals, integrations, etc). After walking the lifecycle, I started thinking about it differently: not as a collection of signals, but as a workflow
 
 Each part answers a different question:
 
