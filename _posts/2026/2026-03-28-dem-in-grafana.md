@@ -14,9 +14,7 @@ What I ended up learning was that Digital Experience Monitoring is not really ab
 
 ## From signals to understanding
 
-Digital Experience Monitoring (DEM) is often described in terms of signals: [synthetic checks](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/), [frontend observability](https://grafana.com/docs/grafana-cloud/monitor-applications/frontend-observability/), logs and traces and so forth. Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly:
-
-> the problem isn’t collecting signals, it’s making sense of them when something breaks
+Digital Experience Monitoring (DEM) is often described in terms of signals: [synthetic checks](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/), [frontend observability](https://grafana.com/docs/grafana-cloud/monitor-applications/frontend-observability/), logs and traces and so forth. Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly: the problem isn’t collecting signals, it’s making sense of them when something breaks
 
 You can have all the right data and still feel stuck.
 
@@ -77,7 +75,7 @@ Instead of correlating multiple graphs, I could follow the flow itself. That mad
 
 At this point, something clicked for me:
 
-> Synthetic Monitoring tells you where to look, Frontend data shows you what actually happens  
+> Synthetic Monitoring tells you where to look, Frontend Observability shows you what actually happens.
 
 Those two together reduce a lot of guesswork.
 
