@@ -13,13 +13,7 @@ What I ended up learning was that Digital Experience Monitoring is not really ab
 
 ## From signals to understanding
 
-Digital Experience Monitoring (DEM) is often described in terms of signals:
-
-- synthetic checks  
-- frontend telemetry  
-- logs and traces  
-
-Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly:
+Digital Experience Monitoring (DEM) is often described in terms of signals: synthetic checks, frontend telemetry, logs and traces and so forth. Coming from the outside, that framing made sense. But once I started using the system, something became clear very quickly:
 
 > the problem isn’t collecting signals, it’s making sense of them when something breaks
 
@@ -113,13 +107,7 @@ Synthetic Monitoring isn’t just about detecting failures. It’s also a reliab
 
 ## What changed for me
 
-Before this exercise, I thought about DEM mostly in terms of capabilities.
-
-- checks  
-- signals  
-- integrations  
-
-After walking the lifecycle, I started thinking about it differently:
+Before this exercise, I thought about DEM mostly in terms of capabilities (checks, signals, integrations, etc). After walking the lifecycle, I started thinking about it differently:
 
 > not as a collection of signals, but as a workflow
 
@@ -134,20 +122,7 @@ The value is not just in having these answers, but in how quickly you can move b
 
 ## Where things still feel hard
 
-This exercise also made some tensions more visible.
-
-As systems grow:
-- more flows get monitored  
-- more teams interact with them  
-- more signals get introduced  
-
-At that point, small inconsistencies start to matter:
-
-- naming  
-- time ranges  
-- missing context between signals  
-
-None of these are new problems. But during an incident, they become very noticeable.
+This exercise also made some tensions more visible. As systems grow more flows get monitored and more teams interact with them. At that point, small inconsistencies start to matter(naming, time ranges, missing context). None of these are new problems. But during an incident, they become very noticeable.
 
 ## Closing thought
 
