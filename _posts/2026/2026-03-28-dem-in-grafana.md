@@ -1,5 +1,5 @@
 ---
-title: "Walking the DEM Lifecycle: What I Learned by Using the Product"
+title: "Walking the DEM Lifecycle: What I Learned by Using Grafana"
 layout: post
 ---
 
