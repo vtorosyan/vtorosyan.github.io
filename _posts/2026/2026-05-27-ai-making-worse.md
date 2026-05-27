@@ -56,8 +56,6 @@ This is the part I want to focus on, because the problem is obvious enough. What
 
 ## The thing that worries me most
 
-It's not the people who are aware of this problem. It's the ones who aren't.
-
 Most engineers I know who are heavy AI users are thoughtful about it. They're asking these questions. But the tooling is being adopted way faster than the culture of careful use is developing. And organizations are rewarding throughput metrics - PRs merged, features shipped - in ways that actively discourage the slower, deeper work that builds the 1% knowledge.
 
 That 1% is not evenly distributed. It lives in the engineers who've debugged enough production incidents, read enough weird kernel behavior, sat with enough confusing systems long enough to develop genuine intuition. We're not replacing those people, we're just not making new ones.
