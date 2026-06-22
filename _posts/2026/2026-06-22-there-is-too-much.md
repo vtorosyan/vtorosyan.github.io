@@ -9,7 +9,7 @@ I know that feeling well. Not from the AI era - from the day my peers became my 
 
 When I transitioned to management at SoundCloud, the people I'd been coding alongside were suddenly on my team. The cognitive load was immediate and brutal. I was stretched in every direction and convinced I had to be on top of all of it: every PR, every decision, every conversation. I spent the first few months in a kind of frantic vigilance, trying to hold everything at once. I was doing everything poorly, and eventually I had to admit that to myself, which is a specific kind of awful.
 
-What actually helped wasn't a mindset shift. It was aggressive prioritization - Shreyas Doshi's framework in particular - and the uncomfortable acceptance that I had to let some things go badly in order to do the important things well. That took years, not weeks. Five-ish, if I'm honest.
+What actually helped wasn't a mindset shift. It was aggressive prioritization - Shreyas Doshi's [LNO framework](https://www.linkedin.com/pulse/lno-framework-explained-shreyas-doshi-dualoop) in particular - and the uncomfortable acceptance that I had to let some things go badly in order to do the important things well. That took years, not weeks. Five-ish, if I'm honest.
 
 ## This is just the job description of an engineering manager
 
@@ -47,13 +47,13 @@ None of this makes the load disappear. It makes it *carriable*.
 
 1. **Separate ownership from authorship.** You own the outcome, not the lines. Ownership is having a model of where this thing breaks and what you'd do when it does - not having typed it. You can own code you didn't write. You cannot own code you refuse to understand. Those are different statements, and the gap between them is the whole job.
 
-2. **Decide what you must understand deeply - then triage the rest without guilt.** You cannot review thousands of lines of generated code at equal depth, and pretending you can is how things slip. The 3am on-call path gets read line by line. The rarely-hit, easily-reversible stuff gets sampled. This isn't laziness, it's the [1% that matters](https://vtorosyan.github.io/ai-making-worse/).
+2. **Decide what you must understand deeply - then triage the rest without guilt.** You cannot review thousands of lines of generated code at equal depth, and pretending you can is how things slip. This is just LNO applied to review: the *leverage* code - the 3am on-call path - gets read line by line. The *overhead* code - rarely-hit, easily-reversible - gets sampled, and an OK-tier pass is the correct amount of effort, not a guilty compromise. This isn't laziness, it's the [1% that matters](https://vtorosyan.github.io/ai-making-worse/).
 
 3. **Externalize. The doc is not a crutch, it's the method.** Stop trying to hold it in your head. Every good manager runs on lists, not memory. Offload the state so your head is free for judgment.
 
-4. **Build verification, not total verification.** You will not personally check everything. So you invest in the things that check for you: tests, types, a teammate's review, a smell test you trust.
+4. **Build verification, not total verification, and calibrate it to track record.** You will not personally check everything. So you invest in the things that check for you: tests, types, a teammate's review, a smell test you trust. And how hard you check should scale with what Andy Grove called task-relevant maturity. On an unfamiliar class of problem, spell it out and read every line. Once an agent has been right on that class a dozen times, step back to agreeing on the goal and spot-checking. The mistake is a fixed level of trust: reviewing everything forever and drowning, or nothing and getting burned.
 
-5. **Letting something fail is a valid output.** Not everything in front of you has to get done, and the discipline is saying which things won't — explicitly, to the people affected, rather than letting them quietly rot. An unmet need you've named is a decision others can plan around. One you've buried under "we'll get to it" is a trap waiting to spring. The skill was never doing everything. It's [choosing what not to do, out loud](https://vtorosyan.github.io/prioritization-trap/).
+5. **Letting something fail is a valid output.** Not everything in front of you has to get done, and the discipline is saying which things won't - explicitly, to the people affected, rather than letting them quietly rot. An unmet need you've named is a decision others can plan around. One you've buried under "we'll get to it" is a trap waiting to spring. The skill was never doing everything. It's [choosing what not to do, out loud](https://vtorosyan.github.io/prioritization-trap/).
 
 6. **The discomfort is the job, not a bug in it.** Acting on incomplete information, sitting with the unease of not-fully-knowing, and committing anyway - that *is* judgment. Managers don't feel more certain than you; they've made peace with feeling uncertain and moving regardless.
 
