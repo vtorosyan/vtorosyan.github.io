@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      (function () {
+        var s = document.createElement('script');
+        s.src = 'https://unpkg.com/@grafana/faro-web-sdk@2/dist/bundle/faro-web-sdk.iife.js';
+        s.onload = function () {
+          window.GrafanaFaroWebSdk.initializeFaro({
+            url: 'https://faro-collector-prod-us-central-0.grafana.net/collect/5672b78e8dc0c9665bb41a639dbacf13',
+            app: { name: 'Vardan Torosyan', version: '1.0.0', environment: 'production' },
+            experimental: { trackNavigation: true },
+          });
+          var t = document.createElement('script');
+          t.src = 'https://unpkg.com/@grafana/faro-web-tracing@2/dist/bundle/faro-web-tracing.iife.js';
+          t.onload = function () {
+            window.GrafanaFaroWebSdk.faro.instrumentations.add(new window.GrafanaFaroWebTracing.TracingInstrumentation());
+          };
+          document.head.appendChild(t);
+        };
+        document.head.appendChild(s);
+      })();
+    </script>
+
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
