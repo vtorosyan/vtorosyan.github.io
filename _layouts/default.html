@@ -17,6 +17,12 @@
             window.GrafanaFaroWebSdk.faro.instrumentations.add(new window.GrafanaFaroWebTracing.TracingInstrumentation());
           };
           document.head.appendChild(t);
+          var r = document.createElement('script');
+          r.src = 'https://unpkg.com/@grafana/faro-instrumentation-replay@2/dist/bundle/faro-instrumentation-replay.iife.js';
+          r.onload = function () {
+            window.GrafanaFaroWebSdk.faro.instrumentations.add(new window.GrafanaFaroInstrumentationReplay.ReplayInstrumentation());
+          };
+          document.head.appendChild(r);
         };
         document.head.appendChild(s);
       })();
