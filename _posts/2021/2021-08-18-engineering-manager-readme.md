@@ -2,6 +2,9 @@
 layout: post
 title: My Engineering Manager README
 ---
+
+> **This was written in 2021. I rewrote it in June 2026 — [read the updated version here](/engineering-manager-readme-2026/).**
+
 Manager READMEs are a good way to introduce yourself as an Engineering Manager (EM). When I transitioned into Engineering Management, I created one for me and just writing things down helped a lot to reflect on my career and learn more about myself.
  
 EM responsibilities vary between companies, or even might be different between teams within a company, so my README is always changing. I do my best to reflect and update it at least every month. While the change is always in progress, there are few things which change very rarely, particularly my values and beliefs, and this is the part I thought to share in this post.
