@@ -3,125 +3,343 @@ layout: default
 permalink: /cv
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vardan Torosyan - CV</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    .section {
-      margin-top: 2rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <h1>Vardan Torosyan</h1>
-  <p>
-    <a href="mailto:vardants@gmail.com">vardants@gmail.com</a> | 
-    <a href="https://de.linkedin.com/in/vtorosyan">LinkedIn</a> | 
-    <a href="https://github.com/vtorosyan">GitHub</a> | 
-    <a href="https://vtorosyan.github.io">Blog</a>
-  </p>
+<style>
+  .cv {
+    max-width: 740px;
+    margin: 0 auto;
+    color: #222;
+  }
 
-  <div class="section">
-    <h2>Profile</h2>
-    <p>
-      Senior Engineering Manager with over 15 years in software engineering, including 7+ years in engineering leadership roles. 
-      At Grafana Labs, I’ve led teams through complex transitions, from multi-team mergers to org design shifts and roadmap resets – while maintaining performance and clarity. 
-      I focus on making principled decisions, mentoring new leaders, and creating grounded, resilient teams. 
-      <br>
-      My leadership philosophy: build trust, move with intention, and do the right thing – even when it’s hard.
+  /* ── Header ── */
+  .cv-header {
+    padding-bottom: 1.4rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #222;
+  }
+
+  .cv-name {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0 0 0.2rem;
+    line-height: 1.1;
+    color: #111;
+  }
+
+  .cv-tagline {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0 0 0.9rem;
+  }
+
+  .cv-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1.2rem;
+    font-size: 0.82rem;
+    color: #555;
+  }
+
+  .cv-contact a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+  }
+
+  .cv-contact a:hover {
+    color: #111;
+    border-bottom-color: #111;
+  }
+
+  /* ── Section ── */
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+
+  .cv-section-title {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #999;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* ── Profile ── */
+  .cv-profile {
+    font-size: 0.92rem;
+    line-height: 1.75;
+    color: #333;
+    margin: 0;
+  }
+
+  /* ── Work Experience ── */
+  .cv-job {
+    margin-bottom: 1.75rem;
+  }
+
+  .cv-job:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.15rem;
+  }
+
+  .cv-company {
+    font-weight: 700;
+    font-size: 0.97rem;
+    color: #111;
+  }
+
+  .cv-dates {
+    font-size: 0.78rem;
+    color: #999;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cv-role {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0.55rem;
+  }
+
+  .cv-job ul {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .cv-job li {
+    font-size: 0.88rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+    line-height: 1.6;
+  }
+
+  /* ── Skills ── */
+  .cv-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.9rem;
+  }
+
+  .cv-skill-group dt {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 0.2rem;
+  }
+
+  .cv-skill-group dd {
+    font-size: 0.86rem;
+    color: #333;
+    margin: 0;
+    line-height: 1.55;
+  }
+
+  /* ── Education / Courses / Languages ── */
+  .cv-item {
+    font-size: 0.88rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+  }
+
+  .cv-item strong {
+    color: #111;
+  }
+
+  /* ── Footer ── */
+  .cv-footer {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e8e8e8;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+
+  .cv-footer a {
+    color: #888;
+  }
+
+  /* ── Print ── */
+  @media print {
+    .wrapper-masthead,
+    .wrapper-footer,
+    .cv-footer {
+      display: none !important;
+    }
+
+    .cv {
+      max-width: 100%;
+    }
+
+    .cv-header {
+      border-bottom-color: #000;
+    }
+
+    .cv-job li,
+    .cv-profile,
+    .cv-item {
+      font-size: 10pt;
+    }
+
+    .cv-name {
+      font-size: 20pt;
+    }
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 560px) {
+    .cv-name { font-size: 1.5rem; }
+    .cv-job-header { flex-direction: column; gap: 0.1rem; }
+    .cv-skills { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+
+<div class="cv">
+
+  <header class="cv-header">
+    <h1 class="cv-name">Vardan Torosyan</h1>
+    <p class="cv-tagline">Senior Engineering Manager · Berlin</p>
+    <div class="cv-contact">
+      <a href="mailto:vardants@gmail.com">vardants@gmail.com</a>
+      <a href="https://de.linkedin.com/in/vtorosyan">LinkedIn</a>
+      <a href="https://github.com/vtorosyan">GitHub</a>
+      <a href="https://vtorosyan.github.io">Blog</a>
+    </div>
+  </header>
+
+  <section class="cv-section">
+    <h2 class="cv-section-title">Profile</h2>
+    <p class="cv-profile">
+      Senior Engineering Manager with over 15 years in software engineering, including 7+ years in engineering leadership roles.
+      At Grafana Labs, I've led teams through complex transitions — from multi-team mergers to org design shifts and roadmap resets — while maintaining performance and clarity.
+      I focus on making principled decisions, mentoring new leaders, and creating grounded, resilient teams.
+      My leadership philosophy: build trust, move with intention, and do the right thing — even when it's hard.
     </p>
-  </div>
+  </section>
 
-  <div class="section">
-    <h2>Work Experience</h2>
+  <section class="cv-section">
+    <h2 class="cv-section-title">Experience</h2>
 
-    <h3>Grafana Labs (Remote, Berlin)</h3>
-    <strong>Senior Engineering Manager</strong> — December 2020 to Present
-    <ul>
-      <li>Built and led the Authentication and Authorization function at Grafana Labs, scaling to a 15-person cross-functional org.</li>
-      <li>Started hands-on with no team and bootstrapped delivery of core features like RBAC and Unified SSO.</li>
-      <li>Shipped production-grade RBAC in 2 months with only 2 engineers.</li>
-      <li>Founded Grafana AuthNZ and unified three auth-related teams under one platform org.</li>
-      <li>Mentored a senior engineer into a manager role and introduced RFC-based decision-making.</li>
-    </ul>
+    <div class="cv-job">
+      <div class="cv-job-header">
+        <span class="cv-company">Grafana Labs</span>
+        <span class="cv-dates">Dec 2020 – Present</span>
+      </div>
+      <p class="cv-role">Senior Engineering Manager · Remote, Berlin</p>
+      <ul>
+        <li>Built and led the Authentication and Authorization function, scaling to a 15-person cross-functional org.</li>
+        <li>Started hands-on with no team and bootstrapped delivery of core features including RBAC and Unified SSO.</li>
+        <li>Shipped production-grade RBAC in 2 months with only 2 engineers.</li>
+        <li>Founded Grafana AuthNZ and unified three auth-related teams under one platform org.</li>
+        <li>Mentored a senior engineer into a manager role and introduced RFC-based decision-making.</li>
+      </ul>
+    </div>
 
-    <h3>SoundCloud (Berlin)</h3>
-    <strong>Engineering Manager, Data Platform</strong> — Feb 2020 to Nov 2020<br>
-    <strong>Senior Data Engineer / Senior Software Engineer</strong> — Mar 2017 to Jan 2020
-    <ul>
-      <li>Led platform team supporting self-serve data access and GCP migration.</li>
-      <li>Designed and built the Stats product for artists on SoundCloud.</li>
-    </ul>
+    <div class="cv-job">
+      <div class="cv-job-header">
+        <span class="cv-company">SoundCloud</span>
+        <span class="cv-dates">Mar 2017 – Nov 2020</span>
+      </div>
+      <p class="cv-role">Engineering Manager, Data Platform (Feb 2020 – Nov 2020) · Senior Data Engineer / Senior Software Engineer (Mar 2017 – Jan 2020) · Berlin</p>
+      <ul>
+        <li>Led the platform team supporting self-serve data access and GCP migration.</li>
+        <li>Designed and built the Stats product for artists on SoundCloud.</li>
+      </ul>
+    </div>
 
-    <h3>Friendsurance (Berlin)</h3>
-    <strong>Team Lead / Senior Software Engineer</strong> — Nov 2013 to Feb 2017
-    <ul>
-      <li>Started and scaled mobile engineering team.</li>
-      <li>Led development of internal tooling and customer support systems.</li>
-    </ul>
+    <div class="cv-job">
+      <div class="cv-job-header">
+        <span class="cv-company">Friendsurance</span>
+        <span class="cv-dates">Nov 2013 – Feb 2017</span>
+      </div>
+      <p class="cv-role">Team Lead / Senior Software Engineer · Berlin</p>
+      <ul>
+        <li>Started and scaled the mobile engineering team.</li>
+        <li>Led development of internal tooling and customer support systems.</li>
+      </ul>
+    </div>
 
-    <h3>Essential Solution Ltd. (Yerevan)</h3>
-    <strong>Software Engineer</strong> — Jun 2012 to Oct 2013
-    <ul>
-      <li>First engineer on RollUp Media platform, scaled team to 7, and led feature delivery.</li>
-    </ul>
+    <div class="cv-job">
+      <div class="cv-job-header">
+        <span class="cv-company">Essential Solution Ltd.</span>
+        <span class="cv-dates">Jun 2012 – Oct 2013</span>
+      </div>
+      <p class="cv-role">Software Engineer · Yerevan</p>
+      <ul>
+        <li>First engineer on the RollUp Media platform; scaled team to 7 and led feature delivery.</li>
+      </ul>
+    </div>
 
-    <h3>be2 Ltd. (Yerevan)</h3>
-    <strong>Junior Software Engineer</strong> — Jun 2008 to Jun 2010
-    <ul>
-      <li>Integrated multiple payment providers and improved test automation for transaction systems.</li>
-    </ul>
-  </div>
+    <div class="cv-job">
+      <div class="cv-job-header">
+        <span class="cv-company">be2 Ltd.</span>
+        <span class="cv-dates">Jun 2008 – Jun 2010</span>
+      </div>
+      <p class="cv-role">Junior Software Engineer · Yerevan</p>
+      <ul>
+        <li>Integrated multiple payment providers and improved test automation for transaction systems.</li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="section">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>Languages:</strong> Go, Java, Scala, Typescript</li>
-      <li><strong>Infrastructure:</strong> AWS, GCP, Kubernetes, Docker</li>
-      <li><strong>Data:</strong> Kafka, Airflow, MySQL, PostgreSQL, Cassandra</li>
-      <li><strong>IAM:</strong> OAuth, SAML, SCIM, JWT, LDAP, RBAC</li>
-    </ul>
-  </div>
+  <section class="cv-section">
+    <h2 class="cv-section-title">Skills</h2>
+    <dl class="cv-skills">
+      <div class="cv-skill-group">
+        <dt>Languages</dt>
+        <dd>Go, Java, Scala, TypeScript</dd>
+      </div>
+      <div class="cv-skill-group">
+        <dt>Infrastructure</dt>
+        <dd>AWS, GCP, Kubernetes, Docker</dd>
+      </div>
+      <div class="cv-skill-group">
+        <dt>Data</dt>
+        <dd>Kafka, Airflow, MySQL, PostgreSQL, Cassandra</dd>
+      </div>
+      <div class="cv-skill-group">
+        <dt>IAM</dt>
+        <dd>OAuth, SAML, SCIM, JWT, LDAP, RBAC</dd>
+      </div>
+    </dl>
+  </section>
 
-  <div class="section">
-    <h2>Education</h2>
-    <p>
-      State Engineering University of Armenia – Bachelor’s in Information Systems (2006 – 2010)
+  <section class="cv-section">
+    <h2 class="cv-section-title">Education</h2>
+    <p class="cv-item">
+      <strong>State Engineering University of Armenia</strong><br>
+      Bachelor's in Information Systems, 2006 – 2010
     </p>
+  </section>
+
+  <section class="cv-section">
+    <h2 class="cv-section-title">Courses &amp; Training</h2>
+    <p class="cv-item"><strong>Business Communication Booster</strong> — American University of Armenia, 2009</p>
+    <p class="cv-item"><strong>Scrum Training</strong> — agile42 GmbH, 2009</p>
+    <p class="cv-item"><strong>Web Development</strong> — Lycos Armenia, 2007 – 2008</p>
+  </section>
+
+  <section class="cv-section">
+    <h2 class="cv-section-title">Languages</h2>
+    <p class="cv-item">English <span style="color:#aaa">·</span> fluent &nbsp;&nbsp; Russian <span style="color:#aaa">·</span> fluent &nbsp;&nbsp; German <span style="color:#aaa">·</span> intermediate &nbsp;&nbsp; Armenian <span style="color:#aaa">·</span> native</p>
+  </section>
+
+  <div class="cv-footer">
+    <a href="{{ site.baseurl }}/VardanTorosyan2025.pdf">Download as PDF</a>
   </div>
 
-  <div class="section">
-    <h2>Courses and Training</h2>
-    <ul>
-      <li>Business Communication Booster – American University of Armenia (2009)</li>
-      <li>Scrum Training – agile42 GmbH (2009)</li>
-      <li>Web Development – Lycos Armenia (2007–2008)</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Languages</h2>
-    <p>English (fluent), Russian (fluent), German (intermediate), Armenian (native)</p>
-  </div>
-</body>
-</html>
+</div>
