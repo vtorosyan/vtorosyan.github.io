@@ -78,7 +78,7 @@ permalink: /cv
 
   /* ── Work Experience ── */
   .cv-job {
-    margin-bottom: 1.75rem;
+    margin-bottom: 2rem;
   }
 
   .cv-job:last-child {
@@ -100,6 +100,12 @@ permalink: /cv
     color: #111;
   }
 
+  .cv-location {
+    font-size: 0.8rem;
+    color: #aaa;
+    font-weight: 400;
+  }
+
   .cv-dates {
     font-size: 0.78rem;
     color: #999;
@@ -107,14 +113,44 @@ permalink: /cv
     font-variant-numeric: tabular-nums;
   }
 
+  .cv-subrole {
+    margin-bottom: 0.9rem;
+  }
+
+  .cv-subrole:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.3rem;
+  }
+
   .cv-role {
     font-size: 0.85rem;
-    color: #555;
-    margin-bottom: 0.55rem;
+    font-style: italic;
+    color: #444;
+  }
+
+  .cv-role-dates {
+    font-size: 0.78rem;
+    color: #bbb;
+    white-space: nowrap;
+  }
+
+  .cv-desc {
+    font-size: 0.88rem;
+    color: #333;
+    line-height: 1.65;
+    margin: 0 0 0.5rem;
   }
 
   .cv-job ul {
-    margin: 0;
+    margin: 0 0 0.5rem;
     padding-left: 1rem;
   }
 
@@ -123,6 +159,21 @@ permalink: /cv
     color: #333;
     margin-bottom: 0.3rem;
     line-height: 1.6;
+  }
+
+  .cv-stack {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin: 0.3rem 0 0;
+  }
+
+  .cv-achievements-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #888;
+    margin: 0.6rem 0 0.3rem;
   }
 
   /* ── Skills ── */
@@ -181,29 +232,17 @@ permalink: /cv
       display: none !important;
     }
 
-    .cv {
-      max-width: 100%;
-    }
-
-    .cv-header {
-      border-bottom-color: #000;
-    }
-
-    .cv-job li,
-    .cv-profile,
-    .cv-item {
-      font-size: 10pt;
-    }
-
-    .cv-name {
-      font-size: 20pt;
-    }
+    .cv { max-width: 100%; }
+    .cv-header { border-bottom-color: #000; }
+    .cv-desc, .cv-job li, .cv-profile, .cv-item { font-size: 10pt; }
+    .cv-name { font-size: 20pt; }
   }
 
   /* ── Responsive ── */
   @media (max-width: 560px) {
     .cv-name { font-size: 1.5rem; }
-    .cv-job-header { flex-direction: column; gap: 0.1rem; }
+    .cv-job-header,
+    .cv-role-header { flex-direction: column; gap: 0.1rem; }
     .cv-skills { grid-template-columns: 1fr 1fr; }
   }
 </style>
@@ -236,64 +275,115 @@ permalink: /cv
 
     <div class="cv-job">
       <div class="cv-job-header">
-        <span class="cv-company">Grafana Labs</span>
+        <span class="cv-company">Grafana Labs <span class="cv-location">· Remote, Berlin</span></span>
         <span class="cv-dates">Dec 2020 – Present</span>
       </div>
-      <p class="cv-role">Senior Engineering Manager · Remote, Berlin</p>
-      <ul>
-        <li>Built and led the Authentication and Authorization function, scaling to a 15-person cross-functional org.</li>
-        <li>Started hands-on with no team and bootstrapped delivery of core features including RBAC and Unified SSO.</li>
-        <li>Shipped production-grade RBAC in 2 months with only 2 engineers.</li>
-        <li>Founded Grafana AuthNZ and unified three auth-related teams under one platform org.</li>
-        <li>Mentored a senior engineer into a manager role and introduced RFC-based decision-making.</li>
-      </ul>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Senior Engineering Manager</span>
+        </div>
+        <p class="cv-desc">
+          Built and led the Authentication and Authorization function at Grafana Labs, growing it from zero to a cross-functional org owning core auth systems across all Grafana products. Started with no team, bootstrapped engineering efforts hands-on, and scaled up to a 15-person org across multiple squads, delivering mission-critical features such as Role-Based Access Control (RBAC), Unified SSO, and identity primitives for machine authentication.
+        </p>
+        <p class="cv-achievements-label">Key Achievements</p>
+        <ul>
+          <li>Joined as a manager without a team; onboarded as an engineer to identify problems and build trust.</li>
+          <li>Hired and grew the team to 8 engineers in the first year, later scaling to a 15-person org with PM, UX, Docs, and embedded security engineers.</li>
+          <li>Designed and shipped the initial RBAC system in 2 months with 2 engineers, previewed at GrafanaCon, and still in production 5 years later.</li>
+          <li>Proposed and created the Grafana AuthNZ team to consolidate fragmented auth efforts across product areas.</li>
+          <li>Unified 3 platform teams under one Identity and Access group, aligning technical direction and team strategy.</li>
+          <li>Split the org into two squads and mentored a senior engineer through transition to EM.</li>
+          <li>Introduced RFC-driven decision making and strong documentation culture through team wiki.</li>
+          <li>Facilitated workshops and internal trainings on unconscious bias, performance, and communication.</li>
+        </ul>
+      </div>
     </div>
 
     <div class="cv-job">
       <div class="cv-job-header">
-        <span class="cv-company">SoundCloud</span>
+        <span class="cv-company">SoundCloud <span class="cv-location">· Berlin</span></span>
         <span class="cv-dates">Mar 2017 – Nov 2020</span>
       </div>
-      <p class="cv-role">Engineering Manager, Data Platform (Feb 2020 – Nov 2020) · Senior Data Engineer / Senior Software Engineer (Mar 2017 – Jan 2020) · Berlin</p>
-      <ul>
-        <li>Led the platform team supporting self-serve data access and GCP migration.</li>
-        <li>Designed and built the Stats product for artists on SoundCloud.</li>
-      </ul>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Engineering Manager, Data Platform</span>
+          <span class="cv-role-dates">Feb 2020 – Nov 2020</span>
+        </div>
+        <p class="cv-desc">Managed the Data Platform team, enabling self-serve access to data across the company. Focused on coaching, mentoring, and creating space for engineers to grow and lead.</p>
+      </div>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Senior Data Engineer</span>
+          <span class="cv-role-dates">Aug 2019 – Jan 2020</span>
+        </div>
+        <p class="cv-desc">Migrated SoundCloud's data infrastructure from AWS to Google Cloud Platform. Led development of publishing and monitoring pipelines to improve visibility and reliability.</p>
+      </div>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Senior Software Engineer</span>
+          <span class="cv-role-dates">Mar 2017 – Jul 2019</span>
+        </div>
+        <p class="cv-desc">Backend engineer in the Creators team, focused on analytics features for artists. Designed and built the Stats product, helping creators understand performance and make informed decisions.</p>
+        <p class="cv-stack">Scala, Java, Spark, Hadoop, GCP, AWS, Kubernetes, Airflow, MySQL, Cassandra, Kafka</p>
+      </div>
     </div>
 
     <div class="cv-job">
       <div class="cv-job-header">
-        <span class="cv-company">Friendsurance</span>
+        <span class="cv-company">Friendsurance <span class="cv-location">· Berlin</span></span>
         <span class="cv-dates">Nov 2013 – Feb 2017</span>
       </div>
-      <p class="cv-role">Team Lead / Senior Software Engineer · Berlin</p>
-      <ul>
-        <li>Started and scaled the mobile engineering team.</li>
-        <li>Led development of internal tooling and customer support systems.</li>
-      </ul>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Team Lead</span>
+          <span class="cv-role-dates">Jun 2015 – Feb 2017</span>
+        </div>
+        <p class="cv-desc">Started and grew a mobile engineering team for iOS and Android apps. Introduced hiring practices, scaled the team to five, and led the design of the Public API for external and internal use.</p>
+      </div>
+
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Senior Software Engineer</span>
+          <span class="cv-role-dates">Nov 2013 – May 2015</span>
+        </div>
+        <p class="cv-desc">One of the early engineers at the company. Led multiple projects end-to-end, including the internal ticketing system for customer support. Reduced manual workflows and improved team efficiency.</p>
+        <p class="cv-stack">Java, AngularJS, TypeScript, AWS, PostgreSQL, Spring, Hibernate, Ansible, Docker</p>
+      </div>
     </div>
 
     <div class="cv-job">
       <div class="cv-job-header">
-        <span class="cv-company">Essential Solution Ltd.</span>
+        <span class="cv-company">Essential Solution Ltd. <span class="cv-location">· Yerevan</span></span>
         <span class="cv-dates">Jun 2012 – Oct 2013</span>
       </div>
-      <p class="cv-role">Software Engineer · Yerevan</p>
-      <ul>
-        <li>First engineer on the RollUp Media platform; scaled team to 7 and led feature delivery.</li>
-      </ul>
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Software Engineer</span>
+        </div>
+        <p class="cv-desc">Built core features of the RollUp Media platform as the first engineer. Scaled the team to 7, onboarded engineers, and enabled independent contributions.</p>
+        <p class="cv-stack">Java, JSF, AWS, Docker, Jenkins, MySQL, Spring, Hibernate</p>
+      </div>
     </div>
 
     <div class="cv-job">
       <div class="cv-job-header">
-        <span class="cv-company">be2 Ltd.</span>
+        <span class="cv-company">be2 Ltd. <span class="cv-location">· Yerevan</span></span>
         <span class="cv-dates">Jun 2008 – Jun 2010</span>
       </div>
-      <p class="cv-role">Junior Software Engineer · Yerevan</p>
-      <ul>
-        <li>Integrated multiple payment providers and improved test automation for transaction systems.</li>
-      </ul>
+      <div class="cv-subrole">
+        <div class="cv-role-header">
+          <span class="cv-role">Junior Software Engineer</span>
+        </div>
+        <p class="cv-desc">Worked on the Payments team, implementing and integrating payment providers including GlobalCollect, HeidelPay, ClickAndBuy, and Adyen. Improved test coverage and product stability.</p>
+        <p class="cv-stack">Java, JSF, EJB, Spring, Jenkins, MySQL, Hibernate</p>
+      </div>
     </div>
+
   </section>
 
   <section class="cv-section">
@@ -304,7 +394,7 @@ permalink: /cv
         <dd>Go, Java, Scala, TypeScript</dd>
       </div>
       <div class="cv-skill-group">
-        <dt>Infrastructure</dt>
+        <dt>Cloud &amp; Infrastructure</dt>
         <dd>AWS, GCP, Kubernetes, Docker</dd>
       </div>
       <div class="cv-skill-group">
@@ -322,20 +412,20 @@ permalink: /cv
     <h2 class="cv-section-title">Education</h2>
     <p class="cv-item">
       <strong>State Engineering University of Armenia</strong><br>
-      Bachelor's in Information Systems, 2006 – 2010
+      Bachelor's in Information Systems, Sep 2006 – Jun 2010
     </p>
   </section>
 
   <section class="cv-section">
     <h2 class="cv-section-title">Courses &amp; Training</h2>
-    <p class="cv-item"><strong>Business Communication Booster</strong> — American University of Armenia, 2009</p>
-    <p class="cv-item"><strong>Scrum Training</strong> — agile42 GmbH, 2009</p>
-    <p class="cv-item"><strong>Web Development</strong> — Lycos Armenia, 2007 – 2008</p>
+    <p class="cv-item"><strong>Business Communication Booster</strong> — American University of Armenia, Sep–Dec 2009</p>
+    <p class="cv-item"><strong>Scrum Training and Coaching</strong> — agile42 GmbH, Jun–Jul 2009</p>
+    <p class="cv-item"><strong>Web Development</strong> (J2SE, J2EE, PHP, SQL, OOP) — Lycos Armenia, Sep 2007 – May 2008</p>
   </section>
 
   <section class="cv-section">
     <h2 class="cv-section-title">Languages</h2>
-    <p class="cv-item">English <span style="color:#aaa">·</span> fluent &nbsp;&nbsp; Russian <span style="color:#aaa">·</span> fluent &nbsp;&nbsp; German <span style="color:#aaa">·</span> intermediate &nbsp;&nbsp; Armenian <span style="color:#aaa">·</span> native</p>
+    <p class="cv-item">English <span style="color:#ccc">·</span> fluent &nbsp;&nbsp; Russian <span style="color:#ccc">·</span> fluent &nbsp;&nbsp; German <span style="color:#ccc">·</span> intermediate &nbsp;&nbsp; Armenian <span style="color:#ccc">·</span> native</p>
   </section>
 
   <div class="cv-footer">
