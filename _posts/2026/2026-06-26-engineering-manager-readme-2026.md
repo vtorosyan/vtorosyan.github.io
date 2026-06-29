@@ -3,7 +3,7 @@ title: "My Engineering Manager README (2026 rewrite)"
 layout: post
 ---
 
-A Manager README is a good way to introduce yourself as an Engineering Manager. I wrote my first one when I transitioned into management — the act of writing it down taught me more about myself than the document ever taught anyone else.
+A Manager README is a good way to introduce yourself as an Engineering Manager. I first wrote one in 2021 — the act of writing it down taught me more about myself than the document ever taught anyone else.
 
 I wrote the original version in 2021. This is the 2026 rewrite, and a lot has changed — not so much what I believe, but the job itself. The work I do now looks less like managing a team and more like orchestrating a system of people, tools, and increasingly AI. So this README has two layers: a thin one that changes often (how the role works right now) and a thick one that barely moves (what I value). I'll keep updating the first. The second is the part worth sharing.
 
