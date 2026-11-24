@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { excerpt } from '../../lib/excerpt';
 
 export async function getStaticPaths() {
   const POSTS_PER_PAGE = 10;
@@ -31,6 +32,7 @@ const hasNext = currentPage < totalPages;
     {posts.map((post) => (
       <li>
         <a class="title" href={`/${post.slug}/`}>{post.data.title}</a>
+        <p class="excerpt">{post.data.description ?? excerpt(post.body)}</p>
         <span class="date">
           {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </span>

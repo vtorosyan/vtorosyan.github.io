@@ -36,6 +36,7 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).toStri
         <a href="/meditations/">Meditations</a>
       </nav>
     </header>
+    <slot name="intro" />
     <main class="container">
       <slot />
     </main>
