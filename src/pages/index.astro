@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const POSTS_PER_PAGE = 10;
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const firstPage = posts.slice(0, POSTS_PER_PAGE);
+const hasMore = posts.length > POSTS_PER_PAGE;
+---
+<BaseLayout>
+  <ul class="post-list">
+    {firstPage.map((post) => (
+      <li>
+        <a class="title" href={`/${post.slug}/`}>{post.data.title}</a>
+        <span class="date">
+          {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </span>
+      </li>
+    ))}
+  </ul>
+  {hasMore && (
+    <div class="pagination">
+      <span class="disabled">← Newer</span>
+      <a href="/page/2/">Older →</a>
+    </div>
+  )}
+</BaseLayout>
