@@ -32,7 +32,7 @@ body {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 0.5rem 1.25rem 4rem;
 }
 
 a {
@@ -47,9 +47,11 @@ a:hover {
 }
 
 header.site-header {
-  padding: 2rem 1.25rem 1rem;
+  padding: 2rem 1.25rem 1.5rem;
   max-width: var(--max-width);
   margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
 }
 
 header.site-header .site-title {
@@ -145,11 +147,11 @@ hr {
 .post-list {
   list-style: none;
   padding: 0;
-  margin: 2rem 0 0;
+  margin: 0;
 }
 
 .post-list li {
-  padding: 1.1rem 0;
+  padding: 0.9rem 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -163,7 +165,8 @@ hr {
   display: block;
   color: var(--fg);
   text-decoration: none;
-  margin-bottom: 0.2rem;
+  line-height: 1.35;
+  margin-bottom: 0.3rem;
 }
 
 .post-list .title:hover {
