@@ -112,6 +112,28 @@ h1, h2, h3, h4 {
   letter-spacing: -0.01em;
   margin-top: 2em;
   margin-bottom: 0.6em;
+  scroll-margin-top: 1.5rem;
+}
+
+.heading-anchor {
+  margin-left: 0.4em;
+  color: var(--border);
+  text-decoration: none;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+h1:hover .heading-anchor,
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+.heading-anchor:focus {
+  opacity: 1;
+}
+
+.heading-anchor:hover {
+  color: var(--accent);
 }
 
 h1 { font-size: 1.8rem; }
