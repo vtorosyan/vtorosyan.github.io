@@ -74,10 +74,17 @@ header.site-header {
 }
 
 header.site-header .site-title {
-  font-size: 1.1rem;
+  font-family: var(--serif);
+  font-size: 1.5rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   color: var(--fg);
   text-decoration: none;
+  display: inline-block;
+}
+
+header.site-header .site-title:hover {
+  color: var(--accent);
 }
 
 header.site-header nav {
