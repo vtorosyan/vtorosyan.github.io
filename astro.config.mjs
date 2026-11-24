@@ -6,8 +6,6 @@ export default defineConfig({
   integrations: [sitemap()],
   redirects: {
     '/vardan_torosyan_cv': '/cv/',
-    '/about': '/about/',
-    '/cv': '/cv/',
   },
   markdown: {
     shikiConfig: {
