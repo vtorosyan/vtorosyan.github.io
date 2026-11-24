@@ -25,6 +25,8 @@ body {
   color: var(--fg);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   line-height: 1.7;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .container {
@@ -60,7 +62,8 @@ header.site-header .site-title {
 header.site-header nav {
   margin-top: 0.75rem;
   display: flex;
-  gap: 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
   font-size: 0.95rem;
 }
 
@@ -227,4 +230,30 @@ footer.site-footer a {
 
 footer.site-footer a:hover {
   color: var(--fg);
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+  .container {
+    padding: 1.25rem 1rem 3rem;
+  }
+  header.site-header {
+    padding: 1.5rem 1rem 0.5rem;
+  }
+  footer.site-footer {
+    padding: 1.25rem 1rem 0;
+  }
+  .post-title {
+    font-size: 1.65rem;
+  }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  .post-list .title {
+    font-size: 1.05rem;
+  }
+  blockquote {
+    padding: 0.1em 1rem;
+  }
 }
