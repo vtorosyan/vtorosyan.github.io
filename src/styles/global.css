@@ -117,10 +117,10 @@ h1, h2, h3, h4 {
 
 .heading-anchor {
   margin-left: 0.4em;
-  color: var(--border);
+  color: var(--muted);
   text-decoration: none;
   font-weight: 400;
-  opacity: 0;
+  opacity: 0.35;
   transition: opacity 0.15s ease, color 0.15s ease;
 }
 
@@ -128,11 +128,9 @@ h1:hover .heading-anchor,
 h2:hover .heading-anchor,
 h3:hover .heading-anchor,
 h4:hover .heading-anchor,
-.heading-anchor:focus {
-  opacity: 1;
-}
-
+.heading-anchor:focus,
 .heading-anchor:hover {
+  opacity: 1;
   color: var(--accent);
 }
 
