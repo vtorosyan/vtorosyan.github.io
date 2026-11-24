@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const { title, description, canonical } = Astro.props;
+const siteName = 'Vardan Torosyan';
+const fullTitle = title ? `${title} – ${siteName}` : siteName;
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" type="application/rss+xml" title={siteName} href="/feed.xml" />
+    <meta property="og:title" content={fullTitle} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="site-title">{siteName}</a>
+      <nav>
+        <a href="/">Writing</a>
+        <a href="/about/">About</a>
+        <a href="/cv/">CV</a>
+        <a href="/meditations/">Meditations</a>
+      </nav>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div>© {new Date().getFullYear()} Vardan Torosyan</div>
+      <div>
+        <a href="/feed.xml">RSS</a>
+        <a href="https://github.com/vtorosyan">GitHub</a>
+        <a href="https://linkedin.com/in/vtorosyan">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>

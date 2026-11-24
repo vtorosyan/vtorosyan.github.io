@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const POSTS_PER_PAGE = 10;
+  const posts = (await getCollection('blog', ({ data }) => !data.draft))
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
+  const pages = [];
+  for (let i = 2; i <= totalPages; i++) {
+    pages.push({
+      params: { page: String(i) },
+      props: {
+        posts: posts.slice((i - 1) * POSTS_PER_PAGE, i * POSTS_PER_PAGE),
+        currentPage: i,
+        totalPages,
+      },
+    });
+  }
+  return pages;
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
+const prevHref = currentPage === 2 ? '/' : `/page/${currentPage - 1}/`;
+const hasNext = currentPage < totalPages;
+---
+<BaseLayout title={`Page ${currentPage}`}>
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <a class="title" href={`/${post.slug}/`}>{post.data.title}</a>
+        <span class="date">
+          {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </span>
+      </li>
+    ))}
+  </ul>
+  <div class="pagination">
+    <a href={prevHref}>← Newer</a>
+    {hasNext ? <a href={`/page/${currentPage + 1}/`}>Older →</a> : <span class="disabled">Older →</span>}
+  </div>
+</BaseLayout>
